@@ -1,0 +1,7 @@
+Java Launcher: /Users/josephyap/Library/Java/JavaVirtualMachines/corretto-16.0.2/Contents/Home/bin/java
+Arguments: '--inJar, /Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/build/fg_cache/net/minecraftforge/forge/1.16.5-36.2.20/forge-1.16.5-36.2.20-injected.jar, --outJar, /Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/build/fg_cache/net/minecraftforge/forge/1.16.5-36.2.20_mapped_official_1.16.5/forge-1.16.5-36.2.20_mapped_official_1.16.5.jar, --logFile, accesstransform.log, --atFile, /Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/src/main/resources/META-INF/accesstransformer.cfg, --atFile, /Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/build/_atJar_5/parent_at.cfg'
+Classpath:
+ - /Users/josephyap/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.0.7/accesstransformers-8.0.7-fatjar.jar
+Working directory: /Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/build/_atJar_5
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

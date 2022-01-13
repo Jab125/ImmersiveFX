@@ -1,0 +1,6 @@
+JVM:         /Users/josephyap/.gradle/jdks/jdk8u312-b07/Contents/Home/bin/java
+JVM Args:    
+Run Args:    "--client", "/Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/build/fg_cache/mcp/1.16.5-20210115.111550/joined/2bc70ed24082f215733ee2de7e686c39ca926994/stripClient/output.jar", "--server", "/Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/build/fg_cache/mcp/1.16.5-20210115.111550/joined/2bc70ed24082f215733ee2de7e686c39ca926994/stripServer/output.jar", "--ann", "1.16.5", "--output", "/Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/build/fg_cache/mcp/1.16.5-20210115.111550/joined/2bc70ed24082f215733ee2de7e686c39ca926994/merge/output.jar", "--inject", "false"
+Classpath:   /Users/josephyap/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/mergetool/1.1.1/mergetool-1.1.1-fatjar.jar
+Working Dir: /Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/build/fg_cache/mcp/1.16.5-20210115.111550/joined/2bc70ed24082f215733ee2de7e686c39ca926994/merge
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger

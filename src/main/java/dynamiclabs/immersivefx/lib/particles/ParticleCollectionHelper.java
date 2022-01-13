@@ -63,7 +63,7 @@ final class ParticleCollectionHelper implements IParticleCollection {
         if (pc == null || !pc.isAlive()) {
             pc = this.factory.create(this.name, GameUtils.getWorld(), this.renderType);
             this.collection = new WeakReference<>(pc);
-            GameUtils.getMC().particles.addEffect(pc);
+            GameUtils.getMC().particleEngine.add(pc);
         }
         return Optional.of(pc);
     }
@@ -83,7 +83,7 @@ final class ParticleCollectionHelper implements IParticleCollection {
     }
 
     void clear() {
-        resolve().ifPresent(Particle::setExpired);
+        resolve().ifPresent(Particle::remove);
         this.collection = null;
     }
 

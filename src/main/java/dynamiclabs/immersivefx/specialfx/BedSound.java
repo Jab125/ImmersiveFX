@@ -1,5 +1,6 @@
 package dynamiclabs.immersivefx.specialfx;
 
+import net.minecraft.client.world.ClientWorld;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -42,12 +43,12 @@ public class BedSound {
 	public static void executeBedSound(Map<String, Object> dependencies) {
 		IWorld world = (IWorld) dependencies.get("world");
 		Entity entity = (Entity) dependencies.get("entity");
-		if (world instanceof World && !world.isRemote()) {
-			((World) world).playSound(null, new BlockPos((int) (entity.getPosX()), (int) (entity.getPosY()), (int) (entity.getPosZ())),
+		if (world instanceof World && !world.isClientSide()) {
+			world.playSound(null, new BlockPos((int) (entity.getX()), (int) (entity.getY()), (int) (entity.getZ())),
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:bed")),
 					SoundCategory.PLAYERS, (float) 1, (float) 1);
 		} else {
-			((World) world).playSound((entity.getPosX()), (entity.getPosY()), (entity.getPosZ()),
+			((World) world).playLocalSound((entity.getX()), (entity.getY()), (entity.getZ()),
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:bed")),
 					SoundCategory.PLAYERS, (float) 1, (float) 1, false);
 		}

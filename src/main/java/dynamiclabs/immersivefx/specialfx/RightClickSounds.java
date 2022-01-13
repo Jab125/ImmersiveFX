@@ -25,7 +25,7 @@ public class RightClickSounds {
 		@SubscribeEvent
 		public static void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
 			PlayerEntity entity = event.getPlayer();
-			if (event.getHand() != entity.getActiveHand()) {
+			if (event.getHand() != entity.getUsedItemHand()) {
 				return;
 			}
 			double i = event.getPos().getX();
@@ -52,114 +52,114 @@ public class RightClickSounds {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.CRAFTING_TABLE) {
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof World && !world.isClientSide()) {
 				((World) world)
 						.playSound(null, new BlockPos((int) x, (int) y, (int) z),
 								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
 										.getValue(new ResourceLocation("immersivefx:click_crafting_table")),
 								SoundCategory.PLAYERS, (float) 1, (float) 1);
 			} else {
-				((World) world).playSound(x, y, z,
+				((World) world).playLocalSound(x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
 								.getValue(new ResourceLocation("immersivefx:click_crafting_table")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1, false);
 			}
 		}
 		if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.FURNACE) {
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof World && !world.isClientSide()) {
 				((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_oven")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1);
 			} else {
-				((World) world).playSound(x, y, z,
+				((World) world).playLocalSound(x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_oven")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1, false);
 			}
 		}
 		if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.BLAST_FURNACE) {
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof World && !world.isClientSide()) {
 				((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_oven")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1);
 			} else {
-				((World) world).playSound(x, y, z,
+				((World) world).playLocalSound(x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_oven")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1, false);
 			}
 		}
 		if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.SMOKER) {
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof World && !world.isClientSide()) {
 				((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_oven")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1);
 			} else {
-				((World) world).playSound(x, y, z,
+				((World) world).playLocalSound(x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_oven")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1, false);
 			}
 		}
 		if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.ENCHANTING_TABLE) {
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof World && !world.isClientSide()) {
 				((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_loom")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1);
 			} else {
-				((World) world).playSound(x, y, z,
+				((World) world).playLocalSound(x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_loom")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1, false);
 			}
 		}
 		if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.LOOM) {
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof World && !world.isClientSide()) {
 				((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_loom")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1);
 			} else {
-				((World) world).playSound(x, y, z,
+				((World) world).playLocalSound(x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_loom")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1, false);
 			}
 		}
 		if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.CARTOGRAPHY_TABLE) {
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof World && !world.isClientSide()) {
 				((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_loom")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1);
 			} else {
-				((World) world).playSound(x, y, z,
+				((World) world).playLocalSound(x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_loom")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1, false);
 			}
 		}
 		if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.STONECUTTER) {
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof World && !world.isClientSide()) {
 				((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_grind_stone")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1);
 			} else {
-				((World) world).playSound(x, y, z,
+				((World) world).playLocalSound(x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_grind_stone")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1, false);
 			}
 		}
 		if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.GRINDSTONE) {
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof World && !world.isClientSide()) {
 				((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_grind_stone")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1);
 			} else {
-				((World) world).playSound(x, y, z,
+				((World) world).playLocalSound(x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_grind_stone")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1, false);
 			}
 		}
 		if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.SMITHING_TABLE) {
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof World && !world.isClientSide()) {
 				((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_upgrade")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1);
 			} else {
-				((World) world).playSound(x, y, z,
+				((World) world).playLocalSound(x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_upgrade")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1, false);
 			}
@@ -167,12 +167,12 @@ public class RightClickSounds {
 		if ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.ANVIL
 				|| (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.CHIPPED_ANVIL
 				|| (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.DAMAGED_ANVIL) {
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof World && !world.isClientSide()) {
 				((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_anvil")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1);
 			} else {
-				((World) world).playSound(x, y, z,
+				((World) world).playLocalSound(x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:click_anvil")),
 						SoundCategory.PLAYERS, (float) 1, (float) 1, false);
 			}

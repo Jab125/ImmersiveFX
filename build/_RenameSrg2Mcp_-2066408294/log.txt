@@ -1,0 +1,15 @@
+Java Launcher: /Users/josephyap/Library/Java/JavaVirtualMachines/corretto-16.0.2/Contents/Home/bin/java
+Arguments: '--task, SRG_TO_MCP, --input, /Users/josephyap/.gradle/caches/modules-2/files-2.1/curse.maven/SereneSeasons-291874/3429973/9c30ec63488c457de8638505ee48d84eb9cf0176/SereneSeasons-291874-3429973.jar, --output, /Users/josephyap/.gradle/caches/forge_gradle/deobf_dependencies/curse/maven/SereneSeasons-291874/3429973_mapped_official_1.16.5/SereneSeasons-291874-3429973_mapped_official_1.16.5.jar, --mcp, /Users/josephyap/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/mapping/1.16.5/mapping-1.16.5-mapping.zip, --strip-signatures'
+Classpath:
+ - /Users/josephyap/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/installertools/1.2.8/installertools-1.2.8-fatjar.jar
+Working directory: /Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/build/_RenameSrg2Mcp_-2066408294
+Main class: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  /Users/josephyap/.gradle/caches/modules-2/files-2.1/curse.maven/SereneSeasons-291874/3429973/9c30ec63488c457de8638505ee48d84eb9cf0176/SereneSeasons-291874-3429973.jar
+Output: /Users/josephyap/.gradle/caches/forge_gradle/deobf_dependencies/curse/maven/SereneSeasons-291874/3429973_mapped_official_1.16.5/SereneSeasons-291874-3429973_mapped_official_1.16.5.jar
+MCP:    /Users/josephyap/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/mapping/1.16.5/mapping-1.16.5-mapping.zip
+Loading MCP Data
+Processing ZIP file
+Stripped Manifest of sha digests
+Process complete

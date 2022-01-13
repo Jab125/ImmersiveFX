@@ -27,9 +27,9 @@ public class SpawnSound {
 		@SubscribeEvent
 		public static void onEntitySpawned(EntityJoinWorldEvent event) {
 			Entity entity = event.getEntity();
-			double i = entity.getPosX();
-			double j = entity.getPosY();
-			double k = entity.getPosZ();
+			double i = entity.getX();
+			double j = entity.getY();
+			double k = entity.getZ();
 			World world = event.getWorld();
 			Map<String, Object> dependencies = new HashMap<>();
 			dependencies.put("x", i);
@@ -49,23 +49,23 @@ public class SpawnSound {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof MonsterEntity || entity instanceof AnimalEntity) {
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof World && !world.isClientSide()) {
 				((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:spawnmob")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1);
 			} else {
-				((World) world).playSound(x, y, z,
+				((World) world).playLocalSound(x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:spawnmob")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
 			}
 			if (world instanceof ServerWorld) {
-				((ServerWorld) world).spawnParticle(ParticleTypes.SMOKE, x, y, z, (int) 10, 0.03, 0.5, 0.03, 0.01);
+				((ServerWorld) world).sendParticles(ParticleTypes.SMOKE, x, y, z, (int) 10, 0.03, 0.5, 0.03, 0.01);
 			}
 			if (world instanceof ServerWorld) {
-				((ServerWorld) world).spawnParticle(ParticleTypes.LARGE_SMOKE, x, y, z, (int) 6, 0.03, 0.5, 0.03, 0.01);
+				((ServerWorld) world).sendParticles(ParticleTypes.LARGE_SMOKE, x, y, z, (int) 6, 0.03, 0.5, 0.03, 0.01);
 			}
 			if (world instanceof ServerWorld) {
-				((ServerWorld) world).spawnParticle(ParticleTypes.CAMPFIRE_COSY_SMOKE, x, y, z, (int) 3, 0.03, 0.5, 0.03, 0.01);
+				((ServerWorld) world).sendParticles(ParticleTypes.CAMPFIRE_COSY_SMOKE, x, y, z, (int) 3, 0.03, 0.5, 0.03, 0.01);
 			}
 		}
 	}

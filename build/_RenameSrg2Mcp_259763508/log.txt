@@ -1,0 +1,15 @@
+Java Launcher: /Users/josephyap/Library/Java/JavaVirtualMachines/corretto-16.0.2/Contents/Home/bin/java
+Arguments: '--task, SRG_TO_MCP, --input, /Users/josephyap/.gradle/caches/modules-2/files-2.1/curse.maven/clothAPI-348521/3311352/1c86f909b5562b41d246efd4d6e7f134d53c6221/clothAPI-348521-3311352.jar, --output, /Users/josephyap/.gradle/caches/forge_gradle/deobf_dependencies/curse/maven/clothAPI-348521/3311352_mapped_snapshot_20201028-1.16.3/clothAPI-348521-3311352_mapped_snapshot_20201028-1.16.3.jar, --mcp, /Users/josephyap/.gradle/caches/forge_gradle/maven_downloader/de/oceanlabs/mcp/mcp_snapshot/20201028-1.16.3/mcp_snapshot-20201028-1.16.3.zip, --strip-signatures'
+Classpath:
+ - /Users/josephyap/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/installertools/1.2.8/installertools-1.2.8-fatjar.jar
+Working directory: /Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/build/_RenameSrg2Mcp_259763508
+Main class: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  /Users/josephyap/.gradle/caches/modules-2/files-2.1/curse.maven/clothAPI-348521/3311352/1c86f909b5562b41d246efd4d6e7f134d53c6221/clothAPI-348521-3311352.jar
+Output: /Users/josephyap/.gradle/caches/forge_gradle/deobf_dependencies/curse/maven/clothAPI-348521/3311352_mapped_snapshot_20201028-1.16.3/clothAPI-348521-3311352_mapped_snapshot_20201028-1.16.3.jar
+MCP:    /Users/josephyap/.gradle/caches/forge_gradle/maven_downloader/de/oceanlabs/mcp/mcp_snapshot/20201028-1.16.3/mcp_snapshot-20201028-1.16.3.zip
+Loading MCP Data
+Processing ZIP file
+Stripped Manifest of sha digests
+Process complete

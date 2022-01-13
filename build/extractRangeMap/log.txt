@@ -1,0 +1,1234 @@
+Java Launcher: /Users/josephyap/.gradle/jdks/jdk-11.0.13+8/Contents/Home/bin/java
+Arguments: '--extract, --source-compatibility, 1.8, --output, /Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/build/extractRangeMap/output.txt, --lib, /Users/josephyap/.gradle/caches/forge_gradle/deobf_dependencies/curse/maven/SereneSeasons-291874/3429973_mapped_snapshot_20201028-1.16.3/SereneSeasons-291874-3429973_mapped_snapshot_20201028-1.16.3.jar, --lib, /Users/josephyap/.gradle/caches/forge_gradle/deobf_dependencies/curse/maven/clothAPI-348521/3311352_mapped_snapshot_20201028-1.16.3/clothAPI-348521-3311352_mapped_snapshot_20201028-1.16.3.jar, --lib, /Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/build/fg_cache/net/minecraftforge/forge/1.16.5-36.2.20_mapped_snapshot_20201028-1.16.3/forge-1.16.5-36.2.20_mapped_snapshot_20201028-1.16.3-recomp.jar, --lib, /Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/build/fg_cache/net/minecraftforge/forge/1.16.5-36.2.20_mapped_snapshot_20201028-1.16.3/forge-1.16.5-36.2.20_mapped_snapshot_20201028-1.16.3-launcher.jar, --lib, /Users/josephyap/.gradle/caches/forge_gradle/minecraft_repo/versions/1.16.5/client-extra.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mergetool/1.0.9/d1e1ba354a40b5703340b5cb02fdca489cff3646/mergetool-1.0.9-api.jar, --lib, /Users/josephyap/.gradle/caches/forge_gradle/maven_downloader/de/oceanlabs/mcp/mcp_snapshot/20201028-1.16.3/mcp_snapshot-20201028-1.16.3.zip, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/cpw.mods/modlauncher/8.0.9/bb848f57758808692b9108df61c909c0a961ba81/modlauncher-8.0.9.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.1/8b971b182eb5cf100b9e8d4119152d83e00e0fdd/asm-commons-9.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.1/36464a45d871779f3383a8a9aba2b26562a86729/asm-util-9.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.1/4f61b83b81d8b659958f4bcc48907e93ecea55a0/asm-analysis-9.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.1/c333f2a855069cb8eb17a40a3eb8b1b67755d0eb/asm-tree-9.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.1/a99500cf6eea30535eeac6be73899d048f8d12a8/asm-9.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/cpw.mods/grossjava9hacks/1.3.3/e49222512ea6cabdd8b49761cef1d5a207b1f0d9/grossjava9hacks-1.3.3.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.minecraftforge/accesstransformers/3.0.1/6d23c1b9cb0607fddc38d09730796f68db96f546/accesstransformers-3.0.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.9.1/428664f05d2b7f7b7610204b5aa7c1763f62011a/antlr4-runtime-4.9.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.minecraftforge/eventbus/4.0.0/260e34800723e4c098c4e247cf2b900535e01b6d/eventbus-4.0.0.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.minecraftforge/forgespi/3.2.0/c6ca4e4e4a0343701407c760e642537b613b543/forgespi-3.2.0.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.minecraftforge/coremods/4.0.6/d6d761379c841e2610abebcbf70ed20b65f728f0/coremods-4.0.6.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.minecraftforge/unsafe/0.2.0/54d7a0a5e8fdb71b973025caa46f341ae5904f39/unsafe-0.2.0.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.electronwill.night-config/toml/3.6.3/2b05b4d606c517da4d1a7b6d2b97d751c92887d7/toml-3.6.3.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.electronwill.night-config/core/3.6.3/c601bfeaeb2c0abe7aaa901b0bbe6d1beff49281/core-3.6.3.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.jline/jline/3.12.1/de2bd909cb9f8eaa741bd03df4a1bd3f6eb593c7/jline-3.12.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.6.3/f8ff8032903882376e8d000c51e3e16d20fc7df7/maven-artifact-3.6.3.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.8.3/98f84f353457629e81cc6827224871b1a8faa7af/typetools-0.8.3.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.minecrell/terminalconsoleappender/1.2.0/96d02cd3b384ff015a8fef4223bcb4ccf1717c95/terminalconsoleappender-1.2.0.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.15.0/ba55c13d7ac2fd44df9cc8074455719a33f375b9/log4j-core-2.15.0.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j18-impl/2.15.0/88f72ad364bfc3a7cf43186fc17212f2b4bb8d97/log4j-slf4j18-impl-2.15.0.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.15.0/4a5aa7e55a29391c6f66e0b259d5189aa11e45d0/log4j-api-2.15.0.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.4/4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c/jopt-simple-5.0.4.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.minecraftforge/nashorn-core-compat/15.1.1.1/1817deb38a5a8811148dca0d23161d92bdbd6184/nashorn-core-compat-15.1.1.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.mojang/patchy/1.3.9/eb8bb7b66fa0e2152b1b40b3856e82f7619439ee/patchy-1.3.9.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.0.0/6ef160c3133a78de015830860197602ca1c855d3/java-objc-bridge-1.0.0.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.4.0/cb208278274bf12ebdb56c61bd7407e6f774d65a/jna-4.4.0.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/66.1/72c7519b6d91f7a1f993bd44a99fe95d67211b27/icu4j-66.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.mojang/javabridge/1.0.22/6aa6453aa99a52a5cd91749da1af6ab70e082ab3/javabridge-1.0.22.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.25.Final/d0626cd3108294d1d58c05859add27b4ef21f83b/netty-all-4.1.25.Final.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/3a3d111be1be1b745edfa7d91678a12d7ed38709/guava-21.0.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.8.1/6505a72a097d9270f7a9e7bf42c4238283247755/commons-lang3-3.8.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/2852e6e05fbb95076fc091f6d1780f1f8fe35e0f/commons-io-2.5.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.mojang/brigadier/1.0.17/c6b7dc51dd44379cc751b7504816006e9be4b1e6/brigadier-1.0.17.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/4.0.26/ebd6690f33871ccee9b6132c6480668ee2e35020/datafixerupper-4.0.26.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/2.1.28/ad54da276bf59983d02d5ed16fc14541354c71fd/authlib-2.1.28.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/8.2.1/5ad88f325e424f8dbc2be5459e21ea5cab3864e9/fastutil-8.2.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.2.1/7a0c583fcbec32b15784f846df536e1837d83666/lwjgl-jemalloc-3.2.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.2.1/dc7ff2dabb40a141ee9bf2e326d9b1b19f3278fb/lwjgl-openal-3.2.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.2.1/57008c2374c5bc434b18adfef3f3653ee450ee18/lwjgl-opengl-3.2.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.2.1/27abb7f64894b61cad163791acd8113f0b21296/lwjgl-glfw-3.2.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.2.1/31f5eb5fce3791d58ec898bc5c1867d76d781ba1/lwjgl-stb-3.2.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.2.1/259f1dbddb921e27e01b32458d6f584eb8bba13a/lwjgl-tinyfd-3.2.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.1/2bb514e444994c6fece99a21f76e0c90438e377f/lwjgl-3.2.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.11.3/f378f889797edd7df8d32272c06ca80a1b6b0f58/text2speech-1.11.3.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.2.1/13b015768e0d04849d2794e4c47eb02d01a0de32/plexus-utils-3.2.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.8.0-beta4/83b0359d847ee053d745be7ec0d8e9e8a44304b4/slf4j-api-1.8.0-beta4.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.12.1/4382ab1382c7b6f379377ed5f665dc2f6e1218bc/jline-reader-3.12.1.jar, --lib, /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.12.1/c777448314e050d980a6b697c140f3bfe9eb7416/jline-terminal-3.12.1.jar, --input, /Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/src/main/java, --batch, true'
+Classpath:
+ - /Users/josephyap/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/Srg2Source/8.0.3/Srg2Source-8.0.3-fatjar.jar
+Working directory: /Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/build/extractRangeMap
+Main class: net.minecraftforge.srg2source.ConsoleTool
+====================================
+Compat: JAVA_1_8
+Output: /Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/build/extractRangeMap/output.txt
+Batch:  true
+Mixins: false
+Fatal:  false
+Lib:    /Users/josephyap/.gradle/caches/forge_gradle/deobf_dependencies/curse/maven/SereneSeasons-291874/3429973_mapped_snapshot_20201028-1.16.3/SereneSeasons-291874-3429973_mapped_snapshot_20201028-1.16.3.jar
+Lib:    /Users/josephyap/.gradle/caches/forge_gradle/deobf_dependencies/curse/maven/clothAPI-348521/3311352_mapped_snapshot_20201028-1.16.3/clothAPI-348521-3311352_mapped_snapshot_20201028-1.16.3.jar
+Lib:    /Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/build/fg_cache/net/minecraftforge/forge/1.16.5-36.2.20_mapped_snapshot_20201028-1.16.3/forge-1.16.5-36.2.20_mapped_snapshot_20201028-1.16.3-recomp.jar
+Lib:    /Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/build/fg_cache/net/minecraftforge/forge/1.16.5-36.2.20_mapped_snapshot_20201028-1.16.3/forge-1.16.5-36.2.20_mapped_snapshot_20201028-1.16.3-launcher.jar
+Lib:    /Users/josephyap/.gradle/caches/forge_gradle/minecraft_repo/versions/1.16.5/client-extra.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mergetool/1.0.9/d1e1ba354a40b5703340b5cb02fdca489cff3646/mergetool-1.0.9-api.jar
+Lib:    /Users/josephyap/.gradle/caches/forge_gradle/maven_downloader/de/oceanlabs/mcp/mcp_snapshot/20201028-1.16.3/mcp_snapshot-20201028-1.16.3.zip
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/cpw.mods/modlauncher/8.0.9/bb848f57758808692b9108df61c909c0a961ba81/modlauncher-8.0.9.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.1/8b971b182eb5cf100b9e8d4119152d83e00e0fdd/asm-commons-9.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.1/36464a45d871779f3383a8a9aba2b26562a86729/asm-util-9.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.1/4f61b83b81d8b659958f4bcc48907e93ecea55a0/asm-analysis-9.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.1/c333f2a855069cb8eb17a40a3eb8b1b67755d0eb/asm-tree-9.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.1/a99500cf6eea30535eeac6be73899d048f8d12a8/asm-9.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/cpw.mods/grossjava9hacks/1.3.3/e49222512ea6cabdd8b49761cef1d5a207b1f0d9/grossjava9hacks-1.3.3.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.minecraftforge/accesstransformers/3.0.1/6d23c1b9cb0607fddc38d09730796f68db96f546/accesstransformers-3.0.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.9.1/428664f05d2b7f7b7610204b5aa7c1763f62011a/antlr4-runtime-4.9.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.minecraftforge/eventbus/4.0.0/260e34800723e4c098c4e247cf2b900535e01b6d/eventbus-4.0.0.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.minecraftforge/forgespi/3.2.0/c6ca4e4e4a0343701407c760e642537b613b543/forgespi-3.2.0.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.minecraftforge/coremods/4.0.6/d6d761379c841e2610abebcbf70ed20b65f728f0/coremods-4.0.6.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.minecraftforge/unsafe/0.2.0/54d7a0a5e8fdb71b973025caa46f341ae5904f39/unsafe-0.2.0.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.electronwill.night-config/toml/3.6.3/2b05b4d606c517da4d1a7b6d2b97d751c92887d7/toml-3.6.3.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.electronwill.night-config/core/3.6.3/c601bfeaeb2c0abe7aaa901b0bbe6d1beff49281/core-3.6.3.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.jline/jline/3.12.1/de2bd909cb9f8eaa741bd03df4a1bd3f6eb593c7/jline-3.12.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.6.3/f8ff8032903882376e8d000c51e3e16d20fc7df7/maven-artifact-3.6.3.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.jodah/typetools/0.8.3/98f84f353457629e81cc6827224871b1a8faa7af/typetools-0.8.3.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.minecrell/terminalconsoleappender/1.2.0/96d02cd3b384ff015a8fef4223bcb4ccf1717c95/terminalconsoleappender-1.2.0.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.15.0/ba55c13d7ac2fd44df9cc8074455719a33f375b9/log4j-core-2.15.0.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j18-impl/2.15.0/88f72ad364bfc3a7cf43186fc17212f2b4bb8d97/log4j-slf4j18-impl-2.15.0.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.15.0/4a5aa7e55a29391c6f66e0b259d5189aa11e45d0/log4j-api-2.15.0.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.4/4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c/jopt-simple-5.0.4.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.minecraftforge/nashorn-core-compat/15.1.1.1/1817deb38a5a8811148dca0d23161d92bdbd6184/nashorn-core-compat-15.1.1.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.mojang/patchy/1.3.9/eb8bb7b66fa0e2152b1b40b3856e82f7619439ee/patchy-1.3.9.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.0.0/6ef160c3133a78de015830860197602ca1c855d3/java-objc-bridge-1.0.0.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.4.0/cb208278274bf12ebdb56c61bd7407e6f774d65a/jna-4.4.0.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/66.1/72c7519b6d91f7a1f993bd44a99fe95d67211b27/icu4j-66.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.mojang/javabridge/1.0.22/6aa6453aa99a52a5cd91749da1af6ab70e082ab3/javabridge-1.0.22.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.25.Final/d0626cd3108294d1d58c05859add27b4ef21f83b/netty-all-4.1.25.Final.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/3a3d111be1be1b745edfa7d91678a12d7ed38709/guava-21.0.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.8.1/6505a72a097d9270f7a9e7bf42c4238283247755/commons-lang3-3.8.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/2852e6e05fbb95076fc091f6d1780f1f8fe35e0f/commons-io-2.5.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.mojang/brigadier/1.0.17/c6b7dc51dd44379cc751b7504816006e9be4b1e6/brigadier-1.0.17.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/4.0.26/ebd6690f33871ccee9b6132c6480668ee2e35020/datafixerupper-4.0.26.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/2.1.28/ad54da276bf59983d02d5ed16fc14541354c71fd/authlib-2.1.28.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/8.2.1/5ad88f325e424f8dbc2be5459e21ea5cab3864e9/fastutil-8.2.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.2.1/7a0c583fcbec32b15784f846df536e1837d83666/lwjgl-jemalloc-3.2.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.2.1/dc7ff2dabb40a141ee9bf2e326d9b1b19f3278fb/lwjgl-openal-3.2.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.2.1/57008c2374c5bc434b18adfef3f3653ee450ee18/lwjgl-opengl-3.2.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.2.1/27abb7f64894b61cad163791acd8113f0b21296/lwjgl-glfw-3.2.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.2.1/31f5eb5fce3791d58ec898bc5c1867d76d781ba1/lwjgl-stb-3.2.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.2.1/259f1dbddb921e27e01b32458d6f584eb8bba13a/lwjgl-tinyfd-3.2.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.1/2bb514e444994c6fece99a21f76e0c90438e377f/lwjgl-3.2.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.11.3/f378f889797edd7df8d32272c06ca80a1b6b0f58/text2speech-1.11.3.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.2.1/13b015768e0d04849d2794e4c47eb02d01a0de32/plexus-utils-3.2.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.8.0-beta4/83b0359d847ee053d745be7ec0d8e9e8a44304b4/slf4j-api-1.8.0-beta4.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.12.1/4382ab1382c7b6f379377ed5f665dc2f6e1218bc/jline-reader-3.12.1.jar
+Lib:    /Users/josephyap/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.12.1/c777448314e050d980a6b697c140f3bfe9eb7416/jline-terminal-3.12.1.jar
+Input:  /Users/josephyap/Desktop/HDBannerCreator/ImmersiveFX/src/main/java
+# Unsupposrted library path: /Users/josephyap/.gradle/caches/forge_gradle/maven_downloader/de/oceanlabs/mcp/mcp_snapshot/20201028-1.16.3/mcp_snapshot-20201028-1.16.3.zip
+# Symbol range map extraction starting
+# Processing 375 files
+# startProcessing "dynamiclabs/immersivefx/dsurround/DynamicSurroundings.java" md5: 0d066333471021748a2ee0f137388e06
+# endProcessing "dynamiclabs/immersivefx/dsurround/DynamicSurroundings.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/dsurround/commands/CommandHelpers.java" md5: 7f33e27e13344de8a32bbc3920bedc0e
+# endProcessing "dynamiclabs/immersivefx/dsurround/commands/CommandHelpers.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/dsurround/commands/dump/DumpCommand.java" md5: cde75a18d4c07fee0075dddd45ad6f15
+# endProcessing "dynamiclabs/immersivefx/dsurround/commands/dump/DumpCommand.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/dsurround/config/Config.java" md5: 082207fdc2e2a91485ab3668ed7f35fb
+# endProcessing "dynamiclabs/immersivefx/dsurround/config/Config.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/dsurround/config/ConfigMenuBuilder.java" md5: edc9e390f08d7fcba4f6f7e4a87d4562
+# endProcessing "dynamiclabs/immersivefx/dsurround/config/ConfigMenuBuilder.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/dsurround/gui/Keys.java" md5: f6164bea9c608a8b852923a4b5b0e67f
+# endProcessing "dynamiclabs/immersivefx/dsurround/gui/Keys.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/dsurround/huds/lightlevel/LightLevelHUD.java" md5: e59cb0b95b2036db14ede7fbdec21646
+# endProcessing "dynamiclabs/immersivefx/dsurround/huds/lightlevel/LightLevelHUD.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/dsurround/mixins/MixinParticleManager.java" md5: 5d7d1ff5e641272d05ea17c90de3dd8c
+# endProcessing "dynamiclabs/immersivefx/dsurround/mixins/MixinParticleManager.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/Environs.java" md5: 42504767998bf7efa599ece00441ce78
+# endProcessing "dynamiclabs/immersivefx/environs/Environs.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/config/Config.java" md5: fd87b4c47b3948ebe2e62404fce48e55
+# endProcessing "dynamiclabs/immersivefx/environs/config/Config.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/config/ConfigGenerator.java" md5: 5ca92f607c617c9191f483f776a0d922
+# endProcessing "dynamiclabs/immersivefx/environs/config/ConfigGenerator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/BlockEffect.java" md5: 9b14775cb3351c5a1c72c9de625e3248
+# endProcessing "dynamiclabs/immersivefx/environs/effects/BlockEffect.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/BlockEffectType.java" md5: 285ce40eb61452ba37191a480ee6c7f8
+# endProcessing "dynamiclabs/immersivefx/environs/effects/BlockEffectType.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/BubbleJetEffect.java" md5: 724094d1f7ea87dbe355a4bcfb35d1b1
+# endProcessing "dynamiclabs/immersivefx/environs/effects/BubbleJetEffect.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/DustJetEffect.java" md5: 5089ad96f3c40241d165268f3caa9eba
+# endProcessing "dynamiclabs/immersivefx/environs/effects/DustJetEffect.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/FireFlyEffect.java" md5: 3e5540f63da1e238a0948a081c0ee872
+# endProcessing "dynamiclabs/immersivefx/environs/effects/FireFlyEffect.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/FireJetEffect.java" md5: fc5625489adc4f416f4dc88e78cd3dc5
+# endProcessing "dynamiclabs/immersivefx/environs/effects/FireJetEffect.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/FountainJetEffect.java" md5: 750a9818ca2d2dee58ff0d9fca366331
+# endProcessing "dynamiclabs/immersivefx/environs/effects/FountainJetEffect.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/JetEffect.java" md5: 69b39f37595ad5eb0be7c4c83fc191ec
+# endProcessing "dynamiclabs/immersivefx/environs/effects/JetEffect.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/SteamJetEffect.java" md5: 1691b00fb258c54ebc2a6b2caac28383
+# endProcessing "dynamiclabs/immersivefx/environs/effects/SteamJetEffect.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/WaterfallSplashEffect.java" md5: 1367c9b03a709e37137f0130e076db8a
+# endProcessing "dynamiclabs/immersivefx/environs/effects/WaterfallSplashEffect.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/emitters/BubbleJet.java" md5: 3e0e31f307632b118161ad5052af0815
+# endProcessing "dynamiclabs/immersivefx/environs/effects/emitters/BubbleJet.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/emitters/DustJet.java" md5: 8813b98ed599130969eeb397827d28b6
+# endProcessing "dynamiclabs/immersivefx/environs/effects/emitters/DustJet.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/emitters/FireJet.java" md5: 8403fc5c48fa74d685426f8c70875857
+# endProcessing "dynamiclabs/immersivefx/environs/effects/emitters/FireJet.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/emitters/FountainJet.java" md5: bb54b2a6fe634f478518329d568ff8b1
+# endProcessing "dynamiclabs/immersivefx/environs/effects/emitters/FountainJet.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/emitters/Jet.java" md5: 273f0ed4c6a60658ba5dcb262db6246f
+# endProcessing "dynamiclabs/immersivefx/environs/effects/emitters/Jet.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/emitters/ParticleEmitter.java" md5: 6329e17b1e953c1f569fdf01e0a202c1
+# endProcessing "dynamiclabs/immersivefx/environs/effects/emitters/ParticleEmitter.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/emitters/SteamJet.java" md5: 3d5f9e683a454922ce5c39dcfea288f5
+# endProcessing "dynamiclabs/immersivefx/environs/effects/emitters/SteamJet.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/emitters/WaterSplashJet.java" md5: 6f22d5bb92636a0b6c16ff7ae4a57e5d
+# endProcessing "dynamiclabs/immersivefx/environs/effects/emitters/WaterSplashJet.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/particles/Collections.java" md5: 865176bcfaa897a28268d98f244ec622
+# endProcessing "dynamiclabs/immersivefx/environs/effects/particles/Collections.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/particles/DustParticle.java" md5: 3ce7dae24578447593679b6367ebf1e7
+# endProcessing "dynamiclabs/immersivefx/environs/effects/particles/DustParticle.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/particles/MoteFireFly.java" md5: 868888d2856d855589abd904d0dc5423
+# endProcessing "dynamiclabs/immersivefx/environs/effects/particles/MoteFireFly.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/particles/MoteRainSplash.java" md5: a551280015333cd8b432d124e680f367
+# endProcessing "dynamiclabs/immersivefx/environs/effects/particles/MoteRainSplash.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/particles/MoteWaterRipple.java" md5: 207ca3bf782e97e329efe80aa7f2a414
+# endProcessing "dynamiclabs/immersivefx/environs/effects/particles/MoteWaterRipple.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/particles/MoteWaterSpray.java" md5: 4d55f887699467f37521d08b932cfda7
+# endProcessing "dynamiclabs/immersivefx/environs/effects/particles/MoteWaterSpray.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/particles/ParticleHooks.java" md5: 585a367108bac79d699c6d6218539826
+# endProcessing "dynamiclabs/immersivefx/environs/effects/particles/ParticleHooks.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/particles/RippleStyle.java" md5: 5d2df6d123bdcb7c086bc3ceac8a5445
+# endProcessing "dynamiclabs/immersivefx/environs/effects/particles/RippleStyle.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/effects/particles/SteamCloudParticle.java" md5: bd58da0b270c71afda1ca242182f0aea
+# endProcessing "dynamiclabs/immersivefx/environs/effects/particles/SteamCloudParticle.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/fog/BedrockFogRangeCalculator.java" md5: 4bbd59ce589fc46a1430efe4596db8c9
+# endProcessing "dynamiclabs/immersivefx/environs/fog/BedrockFogRangeCalculator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/fog/BiomeFogRangeCalculator.java" md5: 79ef41e1bf93746195fcce3a3376b6f6
+# endProcessing "dynamiclabs/immersivefx/environs/fog/BiomeFogRangeCalculator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/fog/FixedFogRangeCalculator.java" md5: 844ea0454272ae57616e27fc3a2e2d52
+# endProcessing "dynamiclabs/immersivefx/environs/fog/FixedFogRangeCalculator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/fog/FogResult.java" md5: f4deeddd6197960c1541b2bede1a3ccc
+# endProcessing "dynamiclabs/immersivefx/environs/fog/FogResult.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/fog/HazeFogRangeCalculator.java" md5: 92e4c27e76d9fb8653d7d1ec8da3afb9
+# endProcessing "dynamiclabs/immersivefx/environs/fog/HazeFogRangeCalculator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/fog/HolisticFogRangeCalculator.java" md5: 316e6817d47fc6b0257e901f7ba6391c
+# endProcessing "dynamiclabs/immersivefx/environs/fog/HolisticFogRangeCalculator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/fog/IFogRangeCalculator.java" md5: b4e942b720aa1859ee4d9377e2e8c042
+# endProcessing "dynamiclabs/immersivefx/environs/fog/IFogRangeCalculator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/fog/MorningFogRangeCalculator.java" md5: 7add55565b8706be3042f71982ee19be
+# endProcessing "dynamiclabs/immersivefx/environs/fog/MorningFogRangeCalculator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/fog/VanillaFogRangeCalculator.java" md5: 76287a6d4b1c346cc6b53f64ea3a9869
+# endProcessing "dynamiclabs/immersivefx/environs/fog/VanillaFogRangeCalculator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/fog/WeatherFogRangeCalculator.java" md5: c362b0c88d0337be3a3cb21aff39cbbf
+# endProcessing "dynamiclabs/immersivefx/environs/fog/WeatherFogRangeCalculator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/handlers/AreaBlockEffects.java" md5: 048b6c97651bddf28b5f7223326e8aaa
+# endProcessing "dynamiclabs/immersivefx/environs/handlers/AreaBlockEffects.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/handlers/AuroraHandler.java" md5: 4fb4a7e8e8b3fd59cdd08b96ea0b573a
+# endProcessing "dynamiclabs/immersivefx/environs/handlers/AuroraHandler.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/handlers/BackgroundAcousticEmitter.java" md5: bcb355764c947832ce8c71637e3cee1c
+# endProcessing "dynamiclabs/immersivefx/environs/handlers/BackgroundAcousticEmitter.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/handlers/BiomeSoundEffects.java" md5: 5954bbf3bed14470cdf4061f77783799
+# endProcessing "dynamiclabs/immersivefx/environs/handlers/BiomeSoundEffects.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/handlers/CommonState.java" md5: 2b30766b40578ac7f8d14ca9c9782a7c
+# endProcessing "dynamiclabs/immersivefx/environs/handlers/CommonState.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/handlers/CommonStateHandler.java" md5: 9a1aa6e9053ce5c8d751bb5a959cfd0f
+# endProcessing "dynamiclabs/immersivefx/environs/handlers/CommonStateHandler.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/handlers/FogHandler.java" md5: 1110ced2bd774a359bf527036b3e7f88
+# endProcessing "dynamiclabs/immersivefx/environs/handlers/FogHandler.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/handlers/HandlerBase.java" md5: db6d31f690d968a78aeef84f07b74548
+# endProcessing "dynamiclabs/immersivefx/environs/handlers/HandlerBase.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/handlers/Manager.java" md5: a4a2d54c570af11ed6916db7bd0b39ec
+# endProcessing "dynamiclabs/immersivefx/environs/handlers/Manager.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/handlers/ParticleSystems.java" md5: dae421f3d8787ab324651be19de22fb7
+# endProcessing "dynamiclabs/immersivefx/environs/handlers/ParticleSystems.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/handlers/scripts/ConditionEvaluator.java" md5: 7e2bc142e1b542098cfd9fdd1a8df5be
+# endProcessing "dynamiclabs/immersivefx/environs/handlers/scripts/ConditionEvaluator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/handlers/scripts/IStateVariables.java" md5: e444ad3936fb4657e1c997720052b7b1
+# endProcessing "dynamiclabs/immersivefx/environs/handlers/scripts/IStateVariables.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/handlers/scripts/StateVariables.java" md5: 46ebaa49ecac3849cb241975f45a1690
+# endProcessing "dynamiclabs/immersivefx/environs/handlers/scripts/StateVariables.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/AcousticEntry.java" md5: b9de60f642714231601767e4a2cd6923
+# endProcessing "dynamiclabs/immersivefx/environs/library/AcousticEntry.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/BiomeAdapter.java" md5: 8fad59444a89bf2440a2e67edfe2d341
+# endProcessing "dynamiclabs/immersivefx/environs/library/BiomeAdapter.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/BiomeEvaluator.java" md5: 6be33d3e2ce83722df8f98e46ee87762
+# endProcessing "dynamiclabs/immersivefx/environs/library/BiomeEvaluator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/BiomeInfo.java" md5: 5de5c36e045bb0da2dc2e5b741349819
+# endProcessing "dynamiclabs/immersivefx/environs/library/BiomeInfo.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/BiomeLibrary.java" md5: 8f4cc7abdf78dd9fd1474832cfc9270f
+# endProcessing "dynamiclabs/immersivefx/environs/library/BiomeLibrary.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/BiomeUtil.java" md5: 79345c0b2856e12e1024f7617b6e0b3c
+# endProcessing "dynamiclabs/immersivefx/environs/library/BiomeUtil.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/BlockStateData.java" md5: ab2f9046c4b7e1f0ec8bb6c9747ba233
+# endProcessing "dynamiclabs/immersivefx/environs/library/BlockStateData.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/BlockStateLibrary.java" md5: a2808b2d6cae9ed636671ed6dbbb21b0
+# endProcessing "dynamiclabs/immersivefx/environs/library/BlockStateLibrary.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/BlockStateUtil.java" md5: 466b4e6213ebe85a73f6fcb92ff824a9
+# endProcessing "dynamiclabs/immersivefx/environs/library/BlockStateUtil.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/Constants.java" md5: 7113a1e6cab105c3770ad8784c5e15e9
+# endProcessing "dynamiclabs/immersivefx/environs/library/Constants.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/DimensionInfo.java" md5: dce1008df64f81d51f7743f5ffcb52df
+# endProcessing "dynamiclabs/immersivefx/environs/library/DimensionInfo.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/DimensionLibrary.java" md5: 5965f9f7c331b76e087ee3d17d9a6ad9
+# endProcessing "dynamiclabs/immersivefx/environs/library/DimensionLibrary.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/FakeBiomeAdapter.java" md5: 7d4aea67d020defcb65f3d80af4802a8
+# endProcessing "dynamiclabs/immersivefx/environs/library/FakeBiomeAdapter.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/IBiome.java" md5: 208abfbd095b17d950cf27fc416b525f
+# endProcessing "dynamiclabs/immersivefx/environs/library/IBiome.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/Libraries.java" md5: 36fb65967886c39cacdbb518953c67de
+# endProcessing "dynamiclabs/immersivefx/environs/library/Libraries.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/WTFFakeBiomeAdapter.java" md5: c335a242851026294b67030c1083b818
+# endProcessing "dynamiclabs/immersivefx/environs/library/WTFFakeBiomeAdapter.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/WeightedAcousticEntry.java" md5: a47eee26f070d5f1d410ebbe94084920
+# endProcessing "dynamiclabs/immersivefx/environs/library/WeightedAcousticEntry.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/config/AcousticConfig.java" md5: c3787663f16d57f28db7ed739fcbfc67
+# endProcessing "dynamiclabs/immersivefx/environs/library/config/AcousticConfig.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/config/BiomeConfig.java" md5: 04457b556b36dd5ab544f007b195914c
+# endProcessing "dynamiclabs/immersivefx/environs/library/config/BiomeConfig.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/config/BlockConfig.java" md5: 49c90714bd3816a7a11acbc9c50d0976
+# endProcessing "dynamiclabs/immersivefx/environs/library/config/BlockConfig.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/config/DimensionConfig.java" md5: ef31add0abb672c3ea99d10504e40664
+# endProcessing "dynamiclabs/immersivefx/environs/library/config/DimensionConfig.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/library/config/EffectConfig.java" md5: fc811f4768def9e4790f044647573c93
+# endProcessing "dynamiclabs/immersivefx/environs/library/config/EffectConfig.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/misc/IMixinBiomeData.java" md5: 770e93f31018d645e7f250deca281357
+# endProcessing "dynamiclabs/immersivefx/environs/misc/IMixinBiomeData.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/misc/IMixinBlockData.java" md5: 139230332ab7c1cd3f2cd1af3e183c6c
+# endProcessing "dynamiclabs/immersivefx/environs/misc/IMixinBlockData.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/mixins/MixinBiome.java" md5: 2cf565d854755975e2c8b0c8cb7e0e3c
+# endProcessing "dynamiclabs/immersivefx/environs/mixins/MixinBiome.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/mixins/MixinBlockState.java" md5: f779ffe5f24768fd50747ea1bd072f55
+# endProcessing "dynamiclabs/immersivefx/environs/mixins/MixinBlockState.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/mixins/MixinDripParticleDripping.java" md5: 4a8d090cefced1d1b5e40333215ea609
+# endProcessing "dynamiclabs/immersivefx/environs/mixins/MixinDripParticleDripping.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/mixins/MixinRainParticle.java" md5: a1cd7caabc34c1856d064717cd4d4d1d
+# endProcessing "dynamiclabs/immersivefx/environs/mixins/MixinRainParticle.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/scanner/AlwaysOnBlockEffectScanner.java" md5: 9a550e54be07e93f268ad288501870fc
+# endProcessing "dynamiclabs/immersivefx/environs/scanner/AlwaysOnBlockEffectScanner.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/scanner/BiomeScanner.java" md5: f19593ec98cabfeb61b0cee82c4b088f
+# endProcessing "dynamiclabs/immersivefx/environs/scanner/BiomeScanner.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/scanner/CeilingCoverage.java" md5: af6cfc43782b12a5ad2757739b1ef567
+# endProcessing "dynamiclabs/immersivefx/environs/scanner/CeilingCoverage.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/scanner/ClientPlayerLocus.java" md5: ac872511a2d03c9c269cf7108a56a3d7
+# endProcessing "dynamiclabs/immersivefx/environs/scanner/ClientPlayerLocus.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/scanner/ComplementsPointIterator.java" md5: 3bb0555b21e4c086d65ed6e2304ac25b
+# endProcessing "dynamiclabs/immersivefx/environs/scanner/ComplementsPointIterator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/scanner/Cuboid.java" md5: 943bd59606b4ff683e0f0203034ae393
+# endProcessing "dynamiclabs/immersivefx/environs/scanner/Cuboid.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/scanner/CuboidPointIterator.java" md5: 541c973ff753f6f7b608154eb1fd1bc0
+# endProcessing "dynamiclabs/immersivefx/environs/scanner/CuboidPointIterator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/scanner/CuboidScanner.java" md5: 8dc7a70e6e895c74a339bb7920566017
+# endProcessing "dynamiclabs/immersivefx/environs/scanner/CuboidScanner.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/scanner/IPointIterator.java" md5: a576b2dfbee11042361f8608450307cf
+# endProcessing "dynamiclabs/immersivefx/environs/scanner/IPointIterator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/scanner/RandomBlockEffectScanner.java" md5: 1ee7936b1cb81d938851d10c87403588
+# endProcessing "dynamiclabs/immersivefx/environs/scanner/RandomBlockEffectScanner.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/scanner/RandomScanner.java" md5: a3947850ee7a93f0cb74884f9b8fa369
+# endProcessing "dynamiclabs/immersivefx/environs/scanner/RandomScanner.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/scanner/ScanContext.java" md5: fe7358f59b849269442ce50043f5239d
+# endProcessing "dynamiclabs/immersivefx/environs/scanner/ScanContext.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/scanner/Scanner.java" md5: 2b0e75bd1331dc2d95749647a69cb872
+# endProcessing "dynamiclabs/immersivefx/environs/scanner/Scanner.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/shaders/ShaderPrograms.java" md5: 80346a6e59312066464ce3c01948e915
+# endProcessing "dynamiclabs/immersivefx/environs/shaders/ShaderPrograms.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/AuroraBand.java" md5: c6d97a06952bc7fb74570305f0761b16
+# endProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/AuroraBand.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/AuroraBase.java" md5: 530d7628302b7e36e331eb88cfbce97c
+# endProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/AuroraBase.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/AuroraColor.java" md5: a45e65e20f8078ea68fe913887c7e358
+# endProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/AuroraColor.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/AuroraFactory.java" md5: 5aed21a69715befbac6252d078ed63ac
+# endProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/AuroraFactory.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/AuroraLifeTracker.java" md5: cc100b47043a3b3dc1cc75053b2c034e
+# endProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/AuroraLifeTracker.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/AuroraRenderType.java" md5: 40fa3baf4e501a16a531c093b0dd6c5e
+# endProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/AuroraRenderType.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/AuroraShaderBand.java" md5: 39575175ee367de2768721325f3a149e
+# endProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/AuroraShaderBand.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/AuroraUtils.java" md5: 8df2ee83dc370f1142b96138770e2c69
+# endProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/AuroraUtils.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/IAurora.java" md5: 294b920ae4cdb377abae69f2d43eaadb
+# endProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/IAurora.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/Panel.java" md5: efa2519b9bf812e5a726a20454cae5e4
+# endProcessing "dynamiclabs/immersivefx/environs/shaders/aurora/Panel.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/BlockPosUtil.java" md5: bf48515e1f29b13719ad3a3cfa0745c8
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/BlockPosUtil.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/DayCycle.java" md5: 403a6e6ab4f06fbc18c6573e3b101264
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/DayCycle.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/Diagnostics.java" md5: 192740bcb82a481d05f0aa4dd5b6ce24
+# endProcessing "dynamiclabs/immersivefx/lib/Diagnostics.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/GameUtils.java" md5: 72a632cb5a408712b2cf79b580abfff7
+# endProcessing "dynamiclabs/immersivefx/lib/GameUtils.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/JsonUtils.java" md5: 5b5b1f2b94cd3b62eecd7b5f5169bece
+# endProcessing "dynamiclabs/immersivefx/lib/JsonUtils.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/Lib.java" md5: 74b3e701936b17c3638d91838665f761
+# endProcessing "dynamiclabs/immersivefx/lib/Lib.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/Localization.java" md5: bc8f6d10ab28e066c63267a1d449ad1f
+# endProcessing "dynamiclabs/immersivefx/lib/Localization.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/MaterialUtils.java" md5: 0adcb155fd81174b0d1f7d592f3aa29b
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/MaterialUtils.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/MinecraftClock.java" md5: c04977be7280614debad38d963f1bb38
+# endProcessing "dynamiclabs/immersivefx/lib/MinecraftClock.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/Singleton.java" md5: a798745c0bd7cfa6a8e0933ce0253a3a
+# endProcessing "dynamiclabs/immersivefx/lib/Singleton.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/SoundTypeUtils.java" md5: ea6484c392c858aa612cc09f3423a295
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/SoundTypeUtils.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/TickCounter.java" md5: 245a8f784a6b89c837cba1a9c637995e
+# endProcessing "dynamiclabs/immersivefx/lib/TickCounter.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/Utilities.java" md5: a3995bf1ae01a0359ba1c7931558af37
+# endProcessing "dynamiclabs/immersivefx/lib/Utilities.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/WeightTable.java" md5: 79d7864a28545b30f5028052eb775b57
+# endProcessing "dynamiclabs/immersivefx/lib/WeightTable.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/WorldUtils.java" md5: 54451d47d3673701189aeea554b02e48
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/WorldUtils.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/biomes/BiomeUtilities.java" md5: af53f3db7e1c7b0801f135ae23bb20df
+# endProcessing "dynamiclabs/immersivefx/lib/biomes/BiomeUtilities.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/blockstate/BlockStateMatcher.java" md5: 70961990ae478421e4320055946104f0
+# endProcessing "dynamiclabs/immersivefx/lib/blockstate/BlockStateMatcher.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/blockstate/BlockStateMatcherMap.java" md5: 5e69bff6c5715dcd209a28c1f07083f5
+# endProcessing "dynamiclabs/immersivefx/lib/blockstate/BlockStateMatcherMap.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/blockstate/BlockStateParser.java" md5: 23decfe3447a302acf1b23d6857ea49b
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/blockstate/BlockStateParser.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/blockstate/BlockStateProperties.java" md5: c913c4c8dc726ee1ecc921be20e8a6b1
+# endProcessing "dynamiclabs/immersivefx/lib/blockstate/BlockStateProperties.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/capability/NullStorage.java" md5: 796a284d61e7263f5af51f16207623e6
+# endProcessing "dynamiclabs/immersivefx/lib/capability/NullStorage.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/capability/SerializableProvider.java" md5: 92e4fe4cb1fbc58d1232d01546c70080
+# endProcessing "dynamiclabs/immersivefx/lib/capability/SerializableProvider.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/capability/SimpleProvider.java" md5: 31306560a4322a504f1a966070f81ca4
+# endProcessing "dynamiclabs/immersivefx/lib/capability/SimpleProvider.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/capability/SimpleStorage.java" md5: 7db5635b901993dd073f3641fc11e05d
+# endProcessing "dynamiclabs/immersivefx/lib/capability/SimpleStorage.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/collections/ObjectArray.java" md5: f079536a12831c1943c612ca5bc9a2ed
+# endProcessing "dynamiclabs/immersivefx/lib/collections/ObjectArray.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/compat/ModEnvironment.java" md5: 2f29768afc0f35a8ffbbd1fc475aba88
+# endProcessing "dynamiclabs/immersivefx/lib/compat/ModEnvironment.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/config/ClothAPIFactory.java" md5: 1d52141a466244c82d585bf0872e4049
+# endProcessing "dynamiclabs/immersivefx/lib/config/ClothAPIFactory.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/config/ConfigGui.java" md5: 0935118ff9fbf0fc1184e1dc1207de50
+# endProcessing "dynamiclabs/immersivefx/lib/config/ConfigGui.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/config/ConfigProperty.java" md5: 4d8802fc0be9308810283512ce8b3769
+# endProcessing "dynamiclabs/immersivefx/lib/config/ConfigProperty.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/config/Validators.java" md5: 007a33e650fbea1a15e3989e15f56c22
+# endProcessing "dynamiclabs/immersivefx/lib/config/Validators.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/effects/EntityEffectHandler.java" md5: 04ae6d385680c854bc8fc8116fb11707
+# endProcessing "dynamiclabs/immersivefx/lib/effects/EntityEffectHandler.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/effects/EntityEffectManager.java" md5: 49ccb329b876b91d88ff930b02a5d967
+# endProcessing "dynamiclabs/immersivefx/lib/effects/EntityEffectManager.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/effects/entity/CapabilityEntityFXData.java" md5: 569ecc1e09b2887f8ed4d6cd87e7d11a
+# endProcessing "dynamiclabs/immersivefx/lib/effects/entity/CapabilityEntityFXData.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/effects/entity/EntityFXData.java" md5: f9129a64a0fc9f216e41eb2f2ea8577b
+# endProcessing "dynamiclabs/immersivefx/lib/effects/entity/EntityFXData.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/effects/entity/IEntityFX.java" md5: 75e9751641dee860902752f56c7629ae
+# endProcessing "dynamiclabs/immersivefx/lib/effects/entity/IEntityFX.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/events/BlockUpdateEvent.java" md5: 3e866f20ef13457f3b0716a8225769c6
+# endProcessing "dynamiclabs/immersivefx/lib/events/BlockUpdateEvent.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/events/DiagnosticEvent.java" md5: c14a05919f6e9cfec10fa1a25910e8b8
+# endProcessing "dynamiclabs/immersivefx/lib/events/DiagnosticEvent.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/fml/Checker.java" md5: ecd5aad97a33a40e29dcb639ae91a820
+# endProcessing "dynamiclabs/immersivefx/lib/fml/Checker.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/fml/ClientLoginChecks.java" md5: ecdad61e64e5c2a22144ee7287ecb434
+# endProcessing "dynamiclabs/immersivefx/lib/fml/ClientLoginChecks.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/fml/ConfigUtils.java" md5: 7ec0c0ce2ea9e1994724caf77e14e7f3
+# endProcessing "dynamiclabs/immersivefx/lib/fml/ConfigUtils.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/fml/ForgeUtils.java" md5: 718cc25608525777c4fea1cb7f067109
+# endProcessing "dynamiclabs/immersivefx/lib/fml/ForgeUtils.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/fml/UpdateChecker.java" md5: 2bc384f13afcaad98463dc882ac8d0d7
+# endProcessing "dynamiclabs/immersivefx/lib/fml/UpdateChecker.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/gui/Color.java" md5: 69e14d6e59ced2d550107ca1a4260464
+# endProcessing "dynamiclabs/immersivefx/lib/gui/Color.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/gui/ColorPalette.java" md5: 4a27de67bf1d685947f9f5d318c5627e
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/gui/ColorPalette.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/gui/GuiHelpers.java" md5: f59154f95d534ee8537297a90a77488f
+# endProcessing "dynamiclabs/immersivefx/lib/gui/GuiHelpers.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/logging/IModLog.java" md5: b901113a07ada2738c2ac93efbae4bba
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/logging/IModLog.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/logging/ModLog.java" md5: dad9845c976242c83fa124e518405e4b
+# endProcessing "dynamiclabs/immersivefx/lib/logging/ModLog.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/math/BlockRayTrace.java" md5: d0e8ad30e36544e74a149151af6603fa
+# endProcessing "dynamiclabs/immersivefx/lib/math/BlockRayTrace.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/math/EMA.java" md5: 59c84f0d0344a49c9777c6095aa90202
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/math/EMA.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/math/LoggingTimerEMA.java" md5: 6ad6492af491c72a7f686442536a45d0
+# endProcessing "dynamiclabs/immersivefx/lib/math/LoggingTimerEMA.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/math/MathStuff.java" md5: 44b41e487ce59a180b1b467305507fd3
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/math/MathStuff.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/math/RayTraceIterator.java" md5: e8c79ea5f0f027195df5a246e417c21d
+# endProcessing "dynamiclabs/immersivefx/lib/math/RayTraceIterator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/math/TimerEMA.java" md5: 4782cf4ca778ae6983abe2a63fcc73fa
+# endProcessing "dynamiclabs/immersivefx/lib/math/TimerEMA.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/particles/AgeableMote.java" md5: d472bdcc69ee690d701fa958caaeedcc
+# endProcessing "dynamiclabs/immersivefx/lib/particles/AgeableMote.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/particles/AnimatedMote.java" md5: 05e34a745b84348daa9781f77c3841c5
+# endProcessing "dynamiclabs/immersivefx/lib/particles/AnimatedMote.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/particles/BaseParticle.java" md5: cb009c0563d057a1e0347f3e12de802a
+# endProcessing "dynamiclabs/immersivefx/lib/particles/BaseParticle.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/particles/CollectionManager.java" md5: 7adc3e5d13cd484800b98221cacb2ed7
+# endProcessing "dynamiclabs/immersivefx/lib/particles/CollectionManager.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/particles/FrustumHelper.java" md5: b53af0330e2f7c5a2d167187ba451030
+# endProcessing "dynamiclabs/immersivefx/lib/particles/FrustumHelper.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/particles/IParticleCollection.java" md5: 6d36ed4fc499733a6946f96f651e46fc
+# endProcessing "dynamiclabs/immersivefx/lib/particles/IParticleCollection.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/particles/IParticleMote.java" md5: 6ff3f1c29afd63ef4f7bf8b24b5cd4cc
+# endProcessing "dynamiclabs/immersivefx/lib/particles/IParticleMote.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/particles/Mote.java" md5: f496836cbb541f9839f44b683e3e9534
+# endProcessing "dynamiclabs/immersivefx/lib/particles/Mote.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/particles/MotionMote.java" md5: f5c74c4c9f192c3c72341ac94880e370
+# endProcessing "dynamiclabs/immersivefx/lib/particles/MotionMote.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/particles/ParticleCollection.java" md5: ba3482f80987cea21258a8434d8014f5
+# endProcessing "dynamiclabs/immersivefx/lib/particles/ParticleCollection.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/particles/ParticleCollectionHelper.java" md5: 1460f663f2e0a594ae708a26dd6ffa94
+# endProcessing "dynamiclabs/immersivefx/lib/particles/ParticleCollectionHelper.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/particles/ParticleCollisionResult.java" md5: edca24dba7a1c440f22eefb441a4d069
+# endProcessing "dynamiclabs/immersivefx/lib/particles/ParticleCollisionResult.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/particles/ParticleRenderType.java" md5: 7153f2ad268514dc04bfadc0dbd6b5c0
+# endProcessing "dynamiclabs/immersivefx/lib/particles/ParticleRenderType.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/random/LCGRandom.java" md5: 53ce55fac929fb45857163b125a546dc
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/random/LCGRandom.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/random/MurmurHash3.java" md5: 0cea1abc27f981854908449db276efdb
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/random/MurmurHash3.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/random/SplitMax.java" md5: 45ffd8caa827ea551f4e23da54e7ba01
+# endProcessing "dynamiclabs/immersivefx/lib/random/SplitMax.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/random/XorShiftRandom.java" md5: db1f4fd45f27ad7e202ac943850403db
+# endProcessing "dynamiclabs/immersivefx/lib/random/XorShiftRandom.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/reflection/BooleanField.java" md5: ec27b774508da217d109bb3d9019bc4e
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/reflection/BooleanField.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/reflection/FloatField.java" md5: 67c84376b36a754376e95916494ffe61
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/reflection/FloatField.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/reflection/IntegerField.java" md5: ff19dc87106312f7b324df296e8a9c67
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/reflection/IntegerField.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/reflection/ObjectField.java" md5: 124a102b79be0036d4591c92b1924420
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/reflection/ObjectField.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/reflection/ReflectedMethod.java" md5: 07644d9b1eaf17eb35ab93a2bdd0ce1c
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/reflection/ReflectedMethod.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/reflection/ReflectionHelper.java" md5: 3f78eb7a5968e092fe75d32b26de63d8
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/reflection/ReflectionHelper.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/resource/IResourceAccessor.java" md5: 8bea08aa47380694067964141d474b27
+# endProcessing "dynamiclabs/immersivefx/lib/resource/IResourceAccessor.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/resource/Manifest.java" md5: 01bf2182a5063ddef25782177adf0673
+# endProcessing "dynamiclabs/immersivefx/lib/resource/Manifest.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/resource/ResourceAccessorBase.java" md5: 1658832481f751926218c15d671d2dfd
+# endProcessing "dynamiclabs/immersivefx/lib/resource/ResourceAccessorBase.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/resource/ResourceAccessorExternal.java" md5: febefb7fa14f90442ab897e821e9dcaa
+# endProcessing "dynamiclabs/immersivefx/lib/resource/ResourceAccessorExternal.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/resource/ResourceAccessorJar.java" md5: 054f9ed21abd578625adb0ec1cd99bbb
+# endProcessing "dynamiclabs/immersivefx/lib/resource/ResourceAccessorJar.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/resource/ResourceAccessorPack.java" md5: aba8ebb7f914a8c6d4b0f2b5cd84beac
+# endProcessing "dynamiclabs/immersivefx/lib/resource/ResourceAccessorPack.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/resource/ResourceUtils.java" md5: dc06dfad30feeabee770670cb27dad2f
+# endProcessing "dynamiclabs/immersivefx/lib/resource/ResourceUtils.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/scripting/ExecutionContext.java" md5: c12e9aa64f051b3dcb47f96aabdf04c2
+# endProcessing "dynamiclabs/immersivefx/lib/scripting/ExecutionContext.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/scripting/LibraryFunctions.java" md5: 08d7bd304e8e2f219932b93a0dd2448a
+# endProcessing "dynamiclabs/immersivefx/lib/scripting/LibraryFunctions.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/scripting/NashornScriptEngineLoader.java" md5: b94a988b39f7e84086fb4ba5018eca16
+# endProcessing "dynamiclabs/immersivefx/lib/scripting/NashornScriptEngineLoader.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/scripting/ScriptEngineLoader.java" md5: 58f5008580b2271ee9482dc3e1afc85a
+# endProcessing "dynamiclabs/immersivefx/lib/scripting/ScriptEngineLoader.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/scripting/VariableSet.java" md5: 4df30a426018680e291e9ad4b6e2e756
+# endProcessing "dynamiclabs/immersivefx/lib/scripting/VariableSet.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/scripting/sets/BiomeVariables.java" md5: f9da20077b4a1d14f971016d28ce10ee
+# endProcessing "dynamiclabs/immersivefx/lib/scripting/sets/BiomeVariables.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/scripting/sets/DimensionVariables.java" md5: 8f967d21951e35d0d894c17d5f254e80
+# endProcessing "dynamiclabs/immersivefx/lib/scripting/sets/DimensionVariables.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/scripting/sets/DiurnalCycleVariables.java" md5: a8055224a07c395e5be9f5eb875749c8
+# endProcessing "dynamiclabs/immersivefx/lib/scripting/sets/DiurnalCycleVariables.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/scripting/sets/IBiomeVariables.java" md5: 7b468702607e9681ff4fdd6f5553c948
+# endProcessing "dynamiclabs/immersivefx/lib/scripting/sets/IBiomeVariables.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/scripting/sets/IDimensionVariables.java" md5: 225f07184312350df7744bb7eb96b479
+# endProcessing "dynamiclabs/immersivefx/lib/scripting/sets/IDimensionVariables.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/scripting/sets/IDiurnalCycle.java" md5: 783fc890debc0789f5cf5c8119b2ff3d
+# endProcessing "dynamiclabs/immersivefx/lib/scripting/sets/IDiurnalCycle.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/scripting/sets/IPlayerVariables.java" md5: e4fedd7d175e6113ddb4720766ed0b4f
+# endProcessing "dynamiclabs/immersivefx/lib/scripting/sets/IPlayerVariables.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/scripting/sets/ISeasonVariables.java" md5: 9fe99427e7356736c9cc04bb0935d4fc
+# endProcessing "dynamiclabs/immersivefx/lib/scripting/sets/ISeasonVariables.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/scripting/sets/IWeatherVariables.java" md5: 39dbdb56060b4c38f4bba6e1a7721131
+# endProcessing "dynamiclabs/immersivefx/lib/scripting/sets/IWeatherVariables.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/scripting/sets/LazyVariable.java" md5: 27f670bb73279e59b5343287d723601e
+# endProcessing "dynamiclabs/immersivefx/lib/scripting/sets/LazyVariable.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/scripting/sets/PlayerVariables.java" md5: 3a79e4f18621681bbeac42eefb88d716
+# endProcessing "dynamiclabs/immersivefx/lib/scripting/sets/PlayerVariables.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/scripting/sets/SeasonVariables.java" md5: f2392757bec83e8831f77f0d23233306
+# endProcessing "dynamiclabs/immersivefx/lib/scripting/sets/SeasonVariables.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/scripting/sets/WeatherVariables.java" md5: 8e97a95482105baa92501a80ed4fcf50
+# endProcessing "dynamiclabs/immersivefx/lib/scripting/sets/WeatherVariables.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/seasons/Season.java" md5: 7e828ead618d73e18fb74cdd86da1a03
+# endProcessing "dynamiclabs/immersivefx/lib/seasons/Season.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/seasons/SeasonSubType.java" md5: 114b951c65fdf7a9f045e849d0f36a58
+# endProcessing "dynamiclabs/immersivefx/lib/seasons/SeasonSubType.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/seasons/SeasonType.java" md5: ca56df378aaaccd5174f0097a63658ea
+# endProcessing "dynamiclabs/immersivefx/lib/seasons/SeasonType.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/service/IModuleService.java" md5: c7ae1ee58d7ea3fde0abfb9443789c7e
+# endProcessing "dynamiclabs/immersivefx/lib/service/IModuleService.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/service/ModuleServiceManager.java" md5: 259bc8291cc3c4a1d31fc9e280c4505b
+# endProcessing "dynamiclabs/immersivefx/lib/service/ModuleServiceManager.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/shaders/IShaderResourceProvider.java" md5: 68202be1ba1ed11e04b5a6502e498120
+# endProcessing "dynamiclabs/immersivefx/lib/shaders/IShaderResourceProvider.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/shaders/ShaderCallContext.java" md5: dcfa3f68cc43ba99c1af53f7948b35d4
+# endProcessing "dynamiclabs/immersivefx/lib/shaders/ShaderCallContext.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/shaders/ShaderManager.java" md5: dff242cce2352b98b286973cf4a5eb84
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/shaders/ShaderManager.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/shaders/ShaderProgram.java" md5: c45eec209932273cfa4867a92d306651
+# endProcessing "dynamiclabs/immersivefx/lib/shaders/ShaderProgram.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/tags/TagUtils.java" md5: e7315bd54bff9ea43ab65a8e99bde7d1
+# endProcessing "dynamiclabs/immersivefx/lib/tags/TagUtils.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/threading/Worker.java" md5: 7cb3b2e58ba086374028397f7224e8af
+# endProcessing "dynamiclabs/immersivefx/lib/threading/Worker.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/validation/IValidator.java" md5: 71fa27f22464fe05681a95e0aeaf0475
+# endProcessing "dynamiclabs/immersivefx/lib/validation/IValidator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/validation/ListValidator.java" md5: af290c3b0d3226750300542cef18e1fb
+# endProcessing "dynamiclabs/immersivefx/lib/validation/ListValidator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/validation/MapValidator.java" md5: 088d91ead329ef62e71a16de022fb1d1
+# endProcessing "dynamiclabs/immersivefx/lib/validation/MapValidator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/validation/ValidationException.java" md5: c2788cdcc2135c611e6230b275700bbe
+# endProcessing "dynamiclabs/immersivefx/lib/validation/ValidationException.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/validation/ValidationHelpers.java" md5: 3a6c315c716ac19dced7981c4afe506c
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/lib/validation/ValidationHelpers.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/validation/Validators.java" md5: 7dfedfb85c32da71ea0bc11f384967f5
+# endProcessing "dynamiclabs/immersivefx/lib/validation/Validators.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/lib/world/ClientBlockUpdateHandler.java" md5: a8873ab618cd0edc128830ced3559973
+# endProcessing "dynamiclabs/immersivefx/lib/world/ClientBlockUpdateHandler.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/MobEffects.java" md5: a5a1aef262124c4158c0aa00d291d135
+# endProcessing "dynamiclabs/immersivefx/mobeffects/MobEffects.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/config/Config.java" md5: 1a004169c453916ccc285125f77f6be2
+# endProcessing "dynamiclabs/immersivefx/mobeffects/config/Config.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/config/ConfigGenerator.java" md5: 3f7b1b241a9f37b7be7a91cb57a4ac73
+# endProcessing "dynamiclabs/immersivefx/mobeffects/config/ConfigGenerator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/effects/EntityBowEffect.java" md5: b8afe1410c3d74340dda59d05a4b61b9
+# endProcessing "dynamiclabs/immersivefx/mobeffects/effects/EntityBowEffect.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/effects/EntityBreathEffect.java" md5: 5fc014a418541ed223b0a3aa1c93fb5d
+# endProcessing "dynamiclabs/immersivefx/mobeffects/effects/EntityBreathEffect.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/effects/EntityFootprintEffect.java" md5: dcc76aa8c9edea817ca9fd5bf64da8c4
+# endProcessing "dynamiclabs/immersivefx/mobeffects/effects/EntityFootprintEffect.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/effects/EntitySwingEffect.java" md5: c7b46b0b4c01df8f06c463f3f919130e
+# endProcessing "dynamiclabs/immersivefx/mobeffects/effects/EntitySwingEffect.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/effects/FactoryHandler.java" md5: d1630f2ac116352f587eb2b4a020b5eb
+# endProcessing "dynamiclabs/immersivefx/mobeffects/effects/FactoryHandler.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/effects/PlayerToolbarEffect.java" md5: cd953560f892b7f88c9f06edb4eeb9d0
+# endProcessing "dynamiclabs/immersivefx/mobeffects/effects/PlayerToolbarEffect.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/effects/particles/BubbleBreathParticle.java" md5: cb4d17df742f1fb078630bb4d8dfe64f
+# endProcessing "dynamiclabs/immersivefx/mobeffects/effects/particles/BubbleBreathParticle.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/effects/particles/Collections.java" md5: 0b7ed0d61f9bf874734fe7683b0debec
+# endProcessing "dynamiclabs/immersivefx/mobeffects/effects/particles/Collections.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/effects/particles/FootprintMote.java" md5: f3e40ae19f0d6c6746bf98b4ed354f94
+# endProcessing "dynamiclabs/immersivefx/mobeffects/effects/particles/FootprintMote.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/effects/particles/FrostBreathParticle.java" md5: 574a59b9fdea9bfc9c0bc0fb2ed2df4d
+# endProcessing "dynamiclabs/immersivefx/mobeffects/effects/particles/FrostBreathParticle.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/effects/particles/ParticleUtils.java" md5: 2e7863415c86c6d7bfa9f5d92ce1927f
+# endProcessing "dynamiclabs/immersivefx/mobeffects/effects/particles/ParticleUtils.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/AcousticResolver.java" md5: 9699f1826974f71d2c43a487b28cf158
+# endProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/AcousticResolver.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/Association.java" md5: 802c22f4cc086c25cae9cd8c68849ea7
+# endProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/Association.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/FootStrikeLocation.java" md5: 7a602bdbdf899b6f557f4002c45fe3dc
+# endProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/FootStrikeLocation.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/Footprint.java" md5: 2c54136754b14325193e2e0cc8476ff7
+# endProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/Footprint.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/FootprintStyle.java" md5: 1f862dcdda6776c282bb332c100e74c0
+# endProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/FootprintStyle.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/Generator.java" md5: 287de66b7ba9b4a46e0d87944c4d45f5
+# endProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/Generator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/GeneratorQP.java" md5: 48afbf6d32f70f412c5489b285888af7
+# endProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/GeneratorQP.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/Substrate.java" md5: 77d0e10f2892cb8f47640b3cfbed139c
+# endProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/Substrate.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/Variator.java" md5: 9dcb4d5f266fcb43547f2ef12353d969
+# endProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/Variator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/accents/ArmorAccents.java" md5: a6d79d660b02bda8624ae3fde31f91b2
+# endProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/accents/ArmorAccents.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/accents/FootstepAccents.java" md5: 1bcf24c95a7a300aa0fb9b75d434f6bc
+# endProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/accents/FootstepAccents.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/accents/IFootstepAccentProvider.java" md5: a3608a35781be6b3041a5ed0b3ab59bf
+# endProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/accents/IFootstepAccentProvider.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/accents/RainSplashAccent.java" md5: 3cfe81808f6f10050558c360078f5763
+# endProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/accents/RainSplashAccent.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/accents/WaterLoggedAccent.java" md5: 770d17db72201db50c85a6f9fe09fb64
+# endProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/accents/WaterLoggedAccent.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/facade/ChiselFacadeAccessor.java" md5: 4a780721fbda817f97e87d7735ad1a7b
+# endProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/facade/ChiselFacadeAccessor.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/facade/FacadeAccessor.java" md5: eb737c10bb92344583d8102f93b4cd1d
+# endProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/facade/FacadeAccessor.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/facade/FacadeHelper.java" md5: e101595f50feb0523a9f0a9b9bb22b7b
+# endProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/facade/FacadeHelper.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/facade/IFacadeAccessor.java" md5: 9bfb6f6ccbc59e4bd018e7bb29ae3241
+# endProcessing "dynamiclabs/immersivefx/mobeffects/footsteps/facade/IFacadeAccessor.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/library/BlockAcousticMap.java" md5: 354cf50b014923857c97a353e52d3799
+# endProcessing "dynamiclabs/immersivefx/mobeffects/library/BlockAcousticMap.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/library/Constants.java" md5: 125d53a850836dfbbcb687ca67238580
+# endProcessing "dynamiclabs/immersivefx/mobeffects/library/Constants.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/library/EffectLibrary.java" md5: 07daf37f6cc2fd266cb7435ac41f1641
+# endProcessing "dynamiclabs/immersivefx/mobeffects/library/EffectLibrary.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/library/EntityEffectInfo.java" md5: 9fc076a6fce83020e4e477cb591da532
+# endProcessing "dynamiclabs/immersivefx/mobeffects/library/EntityEffectInfo.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/library/FootstepLibrary.java" md5: 1656a2a6e06819ddad2dccf5ef96db4b
+# endProcessing "dynamiclabs/immersivefx/mobeffects/library/FootstepLibrary.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/library/ItemData.java" md5: 812cb3b5cb21fb237b24276ea291a962
+# endProcessing "dynamiclabs/immersivefx/mobeffects/library/ItemData.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/library/ItemLibrary.java" md5: eee7f63053eca1deb3c5c7f0230fcf04
+# endProcessing "dynamiclabs/immersivefx/mobeffects/library/ItemLibrary.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/library/Libraries.java" md5: c3f95fdf287448916c4e9ba74218c3ba
+# endProcessing "dynamiclabs/immersivefx/mobeffects/library/Libraries.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/library/config/EntityConfig.java" md5: 4c4b1e76c1364d4647becf8bc27d6de8
+# endProcessing "dynamiclabs/immersivefx/mobeffects/library/config/EntityConfig.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/library/config/FootstepConfig.java" md5: 250ef6090498a9495183754e10ddfbc6
+# endProcessing "dynamiclabs/immersivefx/mobeffects/library/config/FootstepConfig.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/library/config/VariatorConfig.java" md5: d86063ef3c1dc26c5f20e80f5db4cf3c
+# endProcessing "dynamiclabs/immersivefx/mobeffects/library/config/VariatorConfig.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/misc/EntityInspectionHandler.java" md5: 5cc1f4cceec681ff784f96e353f21139
+# endProcessing "dynamiclabs/immersivefx/mobeffects/misc/EntityInspectionHandler.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/misc/HidePotionParticlesHandler.java" md5: a0b0d6d0f08246199756ec6c552bc496
+# endProcessing "dynamiclabs/immersivefx/mobeffects/misc/HidePotionParticlesHandler.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/misc/IMixinFootstepData.java" md5: 1a96b53cc184cb731f619d65c59e604e
+# endProcessing "dynamiclabs/immersivefx/mobeffects/misc/IMixinFootstepData.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/mixins/MixinBlockState.java" md5: 5f39ff687a7575506e99376819bc34c4
+# endProcessing "dynamiclabs/immersivefx/mobeffects/mixins/MixinBlockState.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/mobeffects/mixins/MixinEntityArrow.java" md5: 45ce6bfa827b8eb359e3b042be6a8b28
+# endProcessing "dynamiclabs/immersivefx/mobeffects/mixins/MixinEntityArrow.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/SoundControl.java" md5: 088d119a26505ff0d3f7498e7474d437
+# endProcessing "dynamiclabs/immersivefx/sndctrl/SoundControl.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/api/IMC.java" md5: 8982513bec2dc961d4d37d9567af0b7d
+# endProcessing "dynamiclabs/immersivefx/sndctrl/api/IMC.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/api/acoustics/AcousticEvent.java" md5: 4698c67fd7096da0fb2df4501c458e58
+# endProcessing "dynamiclabs/immersivefx/sndctrl/api/acoustics/AcousticEvent.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/api/acoustics/IAcoustic.java" md5: 9186bcdac2968231249aa3cbacf3c28d
+# endProcessing "dynamiclabs/immersivefx/sndctrl/api/acoustics/IAcoustic.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/api/acoustics/IAcousticFactory.java" md5: 5f613a076b0809f4481ff1e24f09ef68
+# endProcessing "dynamiclabs/immersivefx/sndctrl/api/acoustics/IAcousticFactory.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/api/acoustics/Library.java" md5: 230ccd0352b8ae72849e705809fea021
+# endProcessing "dynamiclabs/immersivefx/sndctrl/api/acoustics/Library.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/api/effects/AbstractEntityEffect.java" md5: 4a40c3c5965d0ebd8b86acebd13a65d9
+# endProcessing "dynamiclabs/immersivefx/sndctrl/api/effects/AbstractEntityEffect.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/api/effects/IEntityEffectFactoryHandler.java" md5: fbfd0a1d2f82f3674c21003b835fcf6b
+# endProcessing "dynamiclabs/immersivefx/sndctrl/api/effects/IEntityEffectFactoryHandler.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/api/effects/IEntityEffectManager.java" md5: b10ded9f8c245d53a9b88b1e527242c7
+# endProcessing "dynamiclabs/immersivefx/sndctrl/api/effects/IEntityEffectManager.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/api/package-info.java" md5: cd43d929cde9eeb3e628d049436cd8b2
+# endProcessing "dynamiclabs/immersivefx/sndctrl/api/package-info.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/api/sound/Category.java" md5: dcd9c16e55ec79c39a423225fdfa74b4
+# endProcessing "dynamiclabs/immersivefx/sndctrl/api/sound/Category.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/api/sound/IFadableSoundInstance.java" md5: 9f28b9e64a5347613454fd0296183393
+# endProcessing "dynamiclabs/immersivefx/sndctrl/api/sound/IFadableSoundInstance.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/api/sound/ISoundCategory.java" md5: 607876808563aedf889705eac78f62e5
+# endProcessing "dynamiclabs/immersivefx/sndctrl/api/sound/ISoundCategory.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/api/sound/ISoundInstance.java" md5: 2d01d465b2850658d0f05b375a8025f9
+# endProcessing "dynamiclabs/immersivefx/sndctrl/api/sound/ISoundInstance.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/api/sound/SoundBuilder.java" md5: eeb081f59f4c74094d7685b1f950ab00
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/sndctrl/api/sound/SoundBuilder.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/AudioEngine.java" md5: 8d02bcac5cb5daf2f3ca1b261853308e
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/AudioEngine.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/BackgroundSoundInstance.java" md5: 1c626b2bc6cfcfcdb7266eda539ce1e6
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/BackgroundSoundInstance.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/Conversion.java" md5: c971731cf1bc84f3b30a08703d74c53b
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/Conversion.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/EntitySoundInstance.java" md5: e0b543951ad4e8e8b7e8cb89991450f8
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/EntitySoundInstance.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/FadableSoundInstance.java" md5: 9eaba60e6f5a386eb8d10efa6b6f03e3
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/FadableSoundInstance.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/LoopingSoundInstance.java" md5: 80bfe692cbe846fe87b7b45d4d647120
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/LoopingSoundInstance.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/PlayerCenteredSoundInstance.java" md5: 25cdfd0be7b60fb478e2383463dd118f
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/PlayerCenteredSoundInstance.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/SoundInstance.java" md5: e3201f4580682104ad3ba37e533138f9
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/SoundInstance.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/SoundMetadata.java" md5: a22892c96eb994943d94c75cb6f0818b
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/SoundMetadata.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/SoundState.java" md5: 7729ce2e892eac4ae4c7320ca9a700c3
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/SoundState.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/SoundUtils.java" md5: 14b457c154787945f5ff723e5e90c75c
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/SoundUtils.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/WrappedSoundInstance.java" md5: 6c3124b2131011edaa658cee45d02d66
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/WrappedSoundInstance.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/acoustic/AcousticCompiler.java" md5: 55d2f98b5e1b5a8f6f2188f4403a1cd8
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/acoustic/AcousticCompiler.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/acoustic/AcousticException.java" md5: 64593f8a3ac26bbab560d63d5d94df86
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/acoustic/AcousticException.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/acoustic/AcousticFactory.java" md5: 55d42abe2f5eebae99365b9164ed69c9
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/acoustic/AcousticFactory.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/acoustic/DelayedAcoustic.java" md5: e828db64dc4aedd70bd77e165f49df6f
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/acoustic/DelayedAcoustic.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/acoustic/EventSelectorAcoustic.java" md5: 5a203b5023c8ae52d5ec5b7ab9749ce3
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/acoustic/EventSelectorAcoustic.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/acoustic/NullAcoustic.java" md5: b3702d7835f52d51fda1ba3587f21cc3
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/acoustic/NullAcoustic.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/acoustic/ProbabilityAcoustic.java" md5: 2289b4bacb3121be5654475b3be138a0
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/acoustic/ProbabilityAcoustic.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/acoustic/SimpleAcoustic.java" md5: 6fa984babbd61905521f997d5b56c1f5
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/acoustic/SimpleAcoustic.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/acoustic/SimultaneousAcoustic.java" md5: 1c841884abe4cb03658de261c3e8521e
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/acoustic/SimultaneousAcoustic.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/Effects.java" md5: ce27efccc7dc647013ee8b7c2da2b559
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/Effects.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/MusicFader.java" md5: e913b1f87db6270f6b59bd98d9f5ba2b
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/MusicFader.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/SoundEventHandling.java" md5: 736545cbc460ee6405b56c9d0a3b735e
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/SoundEventHandling.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/SoundFXProcessor.java" md5: e7c94636ad74cd84231117a26a4a28f7
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/SoundFXProcessor.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/SoundFXUtils.java" md5: 48e111c27271a806caed628d7cea5766
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/SoundFXUtils.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/SoundProcessor.java" md5: 4bf0a9b45a1aa9c488e475e758208a98
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/SoundProcessor.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/SoundVolumeEvaluator.java" md5: 1185ebfb40bc4b13d822dd8e93ffa0df
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/SoundVolumeEvaluator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/SourceContext.java" md5: 72e1e4705c61ce575ecf9da0be8b0a7b
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/SourceContext.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/WorldContext.java" md5: 802271b86e5bd83ddd3977a5ec1939e6
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/WorldContext.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/effects/AuxSlot.java" md5: 393374d0b98fe72fc809973074ba0ba8
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/effects/AuxSlot.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/effects/EffectData.java" md5: aa8306e565cc0423778d5cea0cd95f0a
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/effects/EffectData.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/effects/LowPassData.java" md5: 6361d199996118749c19cd6126eadf17
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/effects/LowPassData.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/effects/LowPassFilterSlot.java" md5: 9dbba53546ade8d534d3989a1856f628
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/effects/LowPassFilterSlot.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/effects/ReverbData.java" md5: b72993dd2c699c890025d20c7601fee8
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/effects/ReverbData.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/effects/ReverbEffectSlot.java" md5: 1060fb05610e625e5ded1574b02c3141
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/effects/ReverbEffectSlot.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/effects/Slot.java" md5: 44f604e1d1ca3f5686f7acf4d37c1a05
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/effects/Slot.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/effects/SourcePropertyFloat.java" md5: 9868187c5fff37aeea079ad060145c9c
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/effects/SourcePropertyFloat.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/effects/SourcePropertyInt.java" md5: 9f05288713ed7e6941e91a3039dc2aea
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/handlers/effects/SourcePropertyInt.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/audio/package-info.java" md5: eb8b34787363edde30bb8bb73fc32656
+# endProcessing "dynamiclabs/immersivefx/sndctrl/audio/package-info.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/client/Inspector.java" md5: 7268a1e1d0f648b4140408f58851a4ae
+# endProcessing "dynamiclabs/immersivefx/sndctrl/client/Inspector.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/config/Config.java" md5: 26c6b2fad95e004a9a93144892f022ac
+# endProcessing "dynamiclabs/immersivefx/sndctrl/config/Config.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/config/ConfigGenerator.java" md5: 36ce51fb0d275955db9a88a09e00ca86
+# endProcessing "dynamiclabs/immersivefx/sndctrl/config/ConfigGenerator.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/events/AudioEvent.java" md5: 17302a0e68787f9e012b6fb2da5b8778
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/sndctrl/events/AudioEvent.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/events/BlockInspectionEvent.java" md5: eda98a6e0a9b8fd238897987b49200f4
+# endProcessing "dynamiclabs/immersivefx/sndctrl/events/BlockInspectionEvent.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/events/EntityInspectionEvent.java" md5: 517ec4f2ff0b495e7a94f5c112cecfba
+# endProcessing "dynamiclabs/immersivefx/sndctrl/events/EntityInspectionEvent.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/gui/IndividualSoundControlList.java" md5: 6e219bcd7f5584d44326f23f0f06f81b
+# endProcessing "dynamiclabs/immersivefx/sndctrl/gui/IndividualSoundControlList.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/gui/IndividualSoundControlListEntry.java" md5: bb6c4b20d3593e11e308644947653e47
+# endProcessing "dynamiclabs/immersivefx/sndctrl/gui/IndividualSoundControlListEntry.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/gui/IndividualSoundControlScreen.java" md5: 4c8533755dd89148020e39557b87b08d
+# endProcessing "dynamiclabs/immersivefx/sndctrl/gui/IndividualSoundControlScreen.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/gui/Keys.java" md5: 6eb6154b6c750fc18e8a5b306cdc4969
+# endProcessing "dynamiclabs/immersivefx/sndctrl/gui/Keys.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/gui/QuickVolumeScreen.java" md5: 6c27b2478e113e148fbe6935b67be7cc
+# endProcessing "dynamiclabs/immersivefx/sndctrl/gui/QuickVolumeScreen.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/library/AcousticLibrary.java" md5: 6ea04a463dd0d9edec70a823dee2858f
+# endProcessing "dynamiclabs/immersivefx/sndctrl/library/AcousticLibrary.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/library/AudioEffectLibrary.java" md5: 921496396d7fd852d889511f65e5e2f5
+# endProcessing "dynamiclabs/immersivefx/sndctrl/library/AudioEffectLibrary.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/library/EntityEffectLibrary.java" md5: ade30d45bb1f2487c8364c41699c0f22
+# endProcessing "dynamiclabs/immersivefx/sndctrl/library/EntityEffectLibrary.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/library/IndividualSoundConfig.java" md5: e1c115a827a6cdb97df5c362f8d744df
+# endProcessing "dynamiclabs/immersivefx/sndctrl/library/IndividualSoundConfig.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/library/Primitives.java" md5: 66561bf51301c2084d8ec699379c3491
+# endProcessing "dynamiclabs/immersivefx/sndctrl/library/Primitives.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/library/SoundLibrary.java" md5: efa3d2f7a279dd5b67b5f98f3920a795
+#    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+# endProcessing "dynamiclabs/immersivefx/sndctrl/library/SoundLibrary.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/library/config/SoundMetadataConfig.java" md5: e516769b99daf766204f1ca57f3d1b5c
+# endProcessing "dynamiclabs/immersivefx/sndctrl/library/config/SoundMetadataConfig.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/misc/ClientWorldPatcher.java" md5: 6be0438601ccbd7f47c346846b6716b0
+# endProcessing "dynamiclabs/immersivefx/sndctrl/misc/ClientWorldPatcher.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/misc/IMixinAudioEffectData.java" md5: 0898e9d20843aa4db1705ff0cb44e3b0
+# endProcessing "dynamiclabs/immersivefx/sndctrl/misc/IMixinAudioEffectData.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/misc/IMixinSoundContext.java" md5: 3e02b78a8b06e5f7240df8967ebff47b
+# endProcessing "dynamiclabs/immersivefx/sndctrl/misc/IMixinSoundContext.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/mixins/MixinBlockState.java" md5: feb74586379840ed9994028401f535a9
+# endProcessing "dynamiclabs/immersivefx/sndctrl/mixins/MixinBlockState.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/mixins/MixinClientWorld.java" md5: 096ff76565501f6a6a3e6312d25ddd8f
+# endProcessing "dynamiclabs/immersivefx/sndctrl/mixins/MixinClientWorld.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/mixins/MixinSoundEngine.java" md5: 70dbbba81f3ed00a47759f63e2c36597
+# endProcessing "dynamiclabs/immersivefx/sndctrl/mixins/MixinSoundEngine.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/mixins/MixinSoundSource.java" md5: f882e8f1db198de4c95b9bb53945687a
+# endProcessing "dynamiclabs/immersivefx/sndctrl/mixins/MixinSoundSource.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/sndctrl/mixins/MixinSoundSystem.java" md5: 8610c08373cd7d8c93dca531b305fbf8
+# endProcessing "dynamiclabs/immersivefx/sndctrl/mixins/MixinSoundSystem.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/specialfx/BedSound.java" md5: 2bd108c6d12542506d10c131575b1358
+# endProcessing "dynamiclabs/immersivefx/specialfx/BedSound.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/specialfx/BloodParticles.java" md5: 7c4a4726642dc05c0c4326b359ff5633
+# endProcessing "dynamiclabs/immersivefx/specialfx/BloodParticles.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/specialfx/BloodSounds.java" md5: 40b006818c5e949a065329d88fa38429
+# endProcessing "dynamiclabs/immersivefx/specialfx/BloodSounds.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/specialfx/ChatSound.java" md5: 615d91bf433f6140aa09fd223daf0611
+# endProcessing "dynamiclabs/immersivefx/specialfx/ChatSound.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/specialfx/CraftSounds.java" md5: 34ca9eb87d55a4ed98c12e8fea1d4bfd
+# endProcessing "dynamiclabs/immersivefx/specialfx/CraftSounds.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/specialfx/DropItemSounds.java" md5: ddb6c54f246abf841de26a4a1e73df19
+# endProcessing "dynamiclabs/immersivefx/specialfx/DropItemSounds.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/specialfx/HungerSound.java" md5: c635b315fc7c263ddfc26c06d40238e0
+# endProcessing "dynamiclabs/immersivefx/specialfx/HungerSound.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/specialfx/Immersivefx.java" md5: 0d4b87787337fa7da31b98680613d2bd
+# endProcessing "dynamiclabs/immersivefx/specialfx/Immersivefx.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/specialfx/ImmersivefxRegistry.java" md5: a3c278a37f9b8a1338ad564a9089a07e
+# endProcessing "dynamiclabs/immersivefx/specialfx/ImmersivefxRegistry.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/specialfx/MusicTriggersID.java" md5: 3061de189bc5d2d42fac0abc7d9aaf21
+# endProcessing "dynamiclabs/immersivefx/specialfx/MusicTriggersID.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/specialfx/RightClickSounds.java" md5: 8f58993251a2fa7112f9d2025e89d4e4
+# endProcessing "dynamiclabs/immersivefx/specialfx/RightClickSounds.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/specialfx/SmeltSounds.java" md5: 7df3176698544259640e4ebd4eb4cea7
+# endProcessing "dynamiclabs/immersivefx/specialfx/SmeltSounds.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/specialfx/SpawnSound.java" md5: 7bf1caa039aafce8dc08852b3629eb14
+# endProcessing "dynamiclabs/immersivefx/specialfx/SpawnSound.java"
+# 
+# startProcessing "dynamiclabs/immersivefx/specialfx/WakeUpSound.java" md5: a7de1183444da90fa6e3959b49fc0af9
+# endProcessing "dynamiclabs/immersivefx/specialfx/WakeUpSound.java"
+# 

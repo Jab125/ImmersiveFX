@@ -24,10 +24,10 @@ public class CraftSounds {
 		@SubscribeEvent
 		public static void onItemCrafted(PlayerEvent.ItemCraftedEvent event) {
 			Entity entity = event.getPlayer();
-			World world = entity.world;
-			double i = entity.getPosX();
-			double j = entity.getPosY();
-			double k = entity.getPosZ();
+			World world = entity.level;
+			double i = entity.getX();
+			double j = entity.getY();
+			double k = entity.getZ();
 			ItemStack itemStack = event.getCrafting();
 			Map<String, Object> dependencies = new HashMap<>();
 			dependencies.put("x", i);
@@ -47,12 +47,12 @@ public class CraftSounds {
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		if (world instanceof World && !world.isRemote()) {
+		if (world instanceof World && !world.isClientSide()) {
 			((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:crafting")),
 					SoundCategory.BLOCKS, (float) 0.5, (float) 1);
 		} else {
-			((World) world).playSound(x, y, z,
+			((World) world).playLocalSound(x, y, z,
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:crafting")),
 					SoundCategory.BLOCKS, (float) 0.5, (float) 1, false);
 		}

@@ -23,14 +23,14 @@ public class ChatSound {
 		@SubscribeEvent
 		public static void onChat(ServerChatEvent event) {
 			ServerPlayerEntity entity = event.getPlayer();
-			double i = entity.getPosX();
-			double j = entity.getPosY();
-			double k = entity.getPosZ();
+			double i = entity.getX();
+			double j = entity.getY();
+			double k = entity.getZ();
 			Map<String, Object> dependencies = new HashMap<>();
 			dependencies.put("x", i);
 			dependencies.put("y", j);
 			dependencies.put("z", k);
-			dependencies.put("world", entity.world);
+			dependencies.put("world", entity.level);
 			dependencies.put("entity", entity);
 			dependencies.put("text", event.getMessage());
 			dependencies.put("event", event);
@@ -43,12 +43,12 @@ public class ChatSound {
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		if (world instanceof World && !world.isRemote()) {
+		if (world instanceof World && !world.isClientSide()) {
 			((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:chat")),
 					SoundCategory.PLAYERS, (float) 1, (float) 1);
 		} else {
-			((World) world).playSound(x, y, z,
+			((World) world).playLocalSound(x, y, z,
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:chat")),
 					SoundCategory.PLAYERS, (float) 1, (float) 1, false);
 		}

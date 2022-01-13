@@ -53,14 +53,14 @@ public class BloodParticles
 
 	// @formatter:off
 	private static final IParticleData
-			ZOMBIFIED_PIG_PARTICLE_DATA = new BlockParticleData(ParticleTypes.BLOCK, Blocks.LIME_TERRACOTTA.getDefaultState()),
-			PHANTOM_PARTICLE_DATA = new BlockParticleData(ParticleTypes.BLOCK, Blocks.GRAY_STAINED_GLASS.getDefaultState()),
+			ZOMBIFIED_PIG_PARTICLE_DATA = new BlockParticleData(ParticleTypes.BLOCK, Blocks.LIME_TERRACOTTA.defaultBlockState()),
+			PHANTOM_PARTICLE_DATA = new BlockParticleData(ParticleTypes.BLOCK, Blocks.GRAY_STAINED_GLASS.defaultBlockState()),
 			BLAZE_PARTICLE_DATA = ParticleTypes.FLAME, SLIME_PARTICLE_DATA = ParticleTypes.ITEM_SLIME,
-			MAGMA_CUBE_PARTICLE_DATA = new BlockParticleData(ParticleTypes.BLOCK, Blocks.MAGMA_BLOCK.getDefaultState()),
-			ENDER_PARTICLE_DATA = new BlockParticleData(ParticleTypes.BLOCK, Blocks.PURPLE_CONCRETE.getDefaultState()),
-			LAVA_PARTICLE_DATA = new BlockParticleData(ParticleTypes.BLOCK, Blocks.LAVA.getDefaultState()),
-			CREEPER_PARTICLE_DATA = new BlockParticleData(ParticleTypes.BLOCK, Blocks.GREEN_TERRACOTTA.getDefaultState()),
-			DEFAULT_PARTICLE_DATA = new BlockParticleData(ParticleTypes.BLOCK, Blocks.REDSTONE_BLOCK.getDefaultState());
+			MAGMA_CUBE_PARTICLE_DATA = new BlockParticleData(ParticleTypes.BLOCK, Blocks.MAGMA_BLOCK.defaultBlockState()),
+			ENDER_PARTICLE_DATA = new BlockParticleData(ParticleTypes.BLOCK, Blocks.PURPLE_CONCRETE.defaultBlockState()),
+			LAVA_PARTICLE_DATA = new BlockParticleData(ParticleTypes.BLOCK, Blocks.LAVA.defaultBlockState()),
+			CREEPER_PARTICLE_DATA = new BlockParticleData(ParticleTypes.BLOCK, Blocks.GREEN_TERRACOTTA.defaultBlockState()),
+			DEFAULT_PARTICLE_DATA = new BlockParticleData(ParticleTypes.BLOCK, Blocks.REDSTONE_BLOCK.defaultBlockState());
 	// @formatter:on
 
 	@SubscribeEvent
@@ -69,7 +69,7 @@ public class BloodParticles
 		if (!isValidDamageSource(event.getSource()))
 			return;
 
-		if (FMLEnvironment.dist != Dist.CLIENT || !event.getEntity().world.isRemote)
+		if (FMLEnvironment.dist != Dist.CLIENT || !event.getEntity().level.isClientSide)
 			return;
 
 		LivingEntity entity = event.getEntityLiving();
@@ -80,7 +80,7 @@ public class BloodParticles
 
 		int numParticles;
 
-		switch (source.damageType)
+		switch (source.msgId)
 		{
 		case "arrow":
 			numParticles = 1 + ((int) (amount * 3));
@@ -89,19 +89,19 @@ public class BloodParticles
 			numParticles = 1 + ((int) (amount * 3));
 			break;
 		case "player":
-			PlayerEntity player = (PlayerEntity) source.getTrueSource();
-			ItemStack weapon = player.getHeldItemMainhand();
+			PlayerEntity player = (PlayerEntity) source.getEntity();
+			ItemStack weapon = player.getMainHandItem();
 			if (!weapon.isEmpty())
 			{
 				Item item = weapon.getItem();
 				float itemAttackDamage;
 				if (item instanceof ToolItem)
 				{
-					itemAttackDamage = ((ToolItem) item).attackDamage;
+					itemAttackDamage = ((ToolItem) item).attackDamageBaseline;
 				}
 				else if (item instanceof SwordItem)
 				{
-					itemAttackDamage = ((SwordItem) item).getAttackDamage();
+					itemAttackDamage = ((SwordItem) item).getDamage();
 				}
 				else
 				{
@@ -157,12 +157,12 @@ public class BloodParticles
 
 		// compute particle speed and location, other misc variables
 
-		WorldRenderer worldRenderer = Minecraft.getInstance().worldRenderer;
+		WorldRenderer worldRenderer = Minecraft.getInstance().levelRenderer;
 
-		Vector3d pos = entity.getPositionVec();
+		Vector3d pos = entity.position();
 
 		double x = pos.x;
-		double y = pos.y + entity.getHeight() / 1.5;
+		double y = pos.y + entity.getBbHeight() / 1.5;
 		double z = pos.z;
 
 		// actually spawn the particles
@@ -179,7 +179,7 @@ public class BloodParticles
 
 	private static boolean isValidDamageSource(DamageSource source)
 	{
-		String damageType = source.damageType;
+		String damageType = source.msgId;
 		return (source == DamageSource.FALL || source == DamageSource.GENERIC || source.isProjectile() || damageType.equalsIgnoreCase("player") || damageType.equalsIgnoreCase("mob") || damageType.equalsIgnoreCase("thorns"));
 	}
 
@@ -193,40 +193,40 @@ public class BloodParticles
 		else
 		{
 			StringBuilder sb = new StringBuilder();
-			sb.append(source.damageType).append(" {");
+			sb.append(source.msgId).append(" {");
 
-			if (source.getHungerDamage() != 0)
-				sb.append(" hunger damage = ").append(source.getHungerDamage()).append(',');
+			if (source.getFoodExhaustion() != 0)
+				sb.append(" hunger damage = ").append(source.getFoodExhaustion()).append(',');
 
-			if (source.isFireDamage())
+			if (source.isFire())
 				sb.append(" fire damage,");
 
 			if (source.isProjectile())
 				sb.append(" projectile,");
 
-			if (source.isDifficultyScaled())
+			if (source.scalesWithDifficulty())
 				sb.append(" difficulty scaled,");
 
-			if (source.isMagicDamage())
+			if (source.isMagic())
 				sb.append(" magic,");
 
 			if (source.isExplosion())
 				sb.append(" explosion,");
 
-			if (source.isDamageAbsolute())
+			if (source.isBypassMagic())
 				sb.append(" absolute damage,");
 
-			if (source.isUnblockable())
+			if (source.isBypassArmor())
 				sb.append(" unblockable,");
 
-			if (source.canHarmInCreative())
+			if (source.isBypassInvul())
 				sb.append(" can harm creative players,");
 
-			if (source.getImmediateSource() != null)
-				sb.append(" immediate source = ").append(source.getImmediateSource().getType().getRegistryName()).append(',');
+			if (source.getDirectEntity() != null)
+				sb.append(" immediate source = ").append(source.getDirectEntity().getType().getRegistryName()).append(',');
 
-			if (source.getTrueSource() != null)
-				sb.append(" true source = ").append(source.getTrueSource().getType().getRegistryName()).append(',');
+			if (source.getEntity() != null)
+				sb.append(" true source = ").append(source.getEntity().getType().getRegistryName()).append(',');
 
 			if (sb.charAt(sb.length() - 1) == ',')
 				sb.setCharAt(sb.length() - 1, ' ');

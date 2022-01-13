@@ -1,0 +1,80 @@
+{
+  "mappings": {
+    "dynamiclabs/immersivefx/environs/mixins/MixinDripParticleDripping": {
+      "net.minecraft.client.particle.DripParticle$FallingLiquidParticle": "net/minecraft/client/particle/DripParticle$FallingLiquidParticle",
+      "updateMotion()V": "Lnet/minecraft/client/particle/DripParticle$FallingLiquidParticle;func_217577_h()V"
+    },
+    "dynamiclabs/immersivefx/environs/mixins/MixinBiome": {
+      "getFogColor()I": "Lnet/minecraft/world/biome/Biome;func_235080_i_()I"
+    },
+    "dynamiclabs/immersivefx/sndctrl/mixins/MixinSoundSource": {
+      "play()V": "Lnet/minecraft/client/audio/SoundSource;func_216438_c()V",
+      "bindBuffer(Lnet/minecraft/client/audio/AudioStreamBuffer;)V": "Lnet/minecraft/client/audio/SoundSource;func_216429_a(Lnet/minecraft/client/audio/AudioStreamBuffer;)V",
+      "tick()V": "Lnet/minecraft/client/audio/SoundSource;func_216434_i()V",
+      "stop()V": "Lnet/minecraft/client/audio/SoundSource;func_216418_f()V"
+    },
+    "dynamiclabs/immersivefx/sndctrl/mixins/MixinClientWorld": {
+      "notifyBlockUpdate(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;Lnet/minecraft/block/BlockState;I)V": "Lnet/minecraft/client/world/ClientWorld;func_184138_a(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;Lnet/minecraft/block/BlockState;I)V"
+    },
+    "dynamiclabs/immersivefx/sndctrl/mixins/MixinSoundEngine": {
+      "load()V": "Lnet/minecraft/client/audio/SoundEngine;func_148608_i()V",
+      "unload()V": "Lnet/minecraft/client/audio/SoundEngine;func_148613_b()V",
+      "Lnet/minecraft/client/audio/SoundSystem;unload()V": "Lnet/minecraft/client/audio/SoundSystem;func_216409_b()V",
+      "tick(Z)V": "Lnet/minecraft/client/audio/SoundEngine;func_217921_a(Z)V",
+      "getClampedVolume(Lnet/minecraft/client/audio/ISound;)F": "Lnet/minecraft/client/audio/SoundEngine;func_188770_e(Lnet/minecraft/client/audio/ISound;)F",
+      "play(Lnet/minecraft/client/audio/ISound;)V": "Lnet/minecraft/client/audio/SoundEngine;func_148611_c(Lnet/minecraft/client/audio/ISound;)V",
+      "Lnet/minecraft/client/audio/SoundSystem;init()V": "Lnet/minecraft/client/audio/SoundSystem;func_216404_a()V",
+      "Lnet/minecraft/client/audio/ChannelManager$Entry;runOnSoundExecutor(Ljava/util/function/Consumer;)V": "Lnet/minecraft/client/audio/ChannelManager$Entry;func_217888_a(Ljava/util/function/Consumer;)V"
+    },
+    "dynamiclabs/immersivefx/sndctrl/mixins/MixinSoundSystem": {
+      "init()V": "Lnet/minecraft/client/audio/SoundSystem;func_216404_a()V"
+    },
+    "dynamiclabs/immersivefx/environs/mixins/MixinRainParticle": {
+      "makeParticle(Lnet/minecraft/particles/BasicParticleType;Lnet/minecraft/client/world/ClientWorld;DDDDDD)Lnet/minecraft/client/particle/Particle;": "Lnet/minecraft/client/particle/RainParticle$Factory;func_199234_a(Lnet/minecraft/particles/BasicParticleType;Lnet/minecraft/client/world/ClientWorld;DDDDDD)Lnet/minecraft/client/particle/Particle;"
+    },
+    "dynamiclabs/immersivefx/mobeffects/mixins/MixinEntityArrow": {
+      "tick()V": "Lnet/minecraft/entity/projectile/AbstractArrowEntity;func_70071_h_()V",
+      "Lnet/minecraft/entity/projectile/AbstractArrowEntity;getIsCritical()Z": "Lnet/minecraft/entity/projectile/AbstractArrowEntity;func_70241_g()Z"
+    }
+  },
+  "data": {
+    "searge": {
+      "dynamiclabs/immersivefx/environs/mixins/MixinDripParticleDripping": {
+        "net.minecraft.client.particle.DripParticle$FallingLiquidParticle": "net/minecraft/client/particle/DripParticle$FallingLiquidParticle",
+        "updateMotion()V": "Lnet/minecraft/client/particle/DripParticle$FallingLiquidParticle;func_217577_h()V"
+      },
+      "dynamiclabs/immersivefx/environs/mixins/MixinBiome": {
+        "getFogColor()I": "Lnet/minecraft/world/biome/Biome;func_235080_i_()I"
+      },
+      "dynamiclabs/immersivefx/sndctrl/mixins/MixinSoundSource": {
+        "play()V": "Lnet/minecraft/client/audio/SoundSource;func_216438_c()V",
+        "bindBuffer(Lnet/minecraft/client/audio/AudioStreamBuffer;)V": "Lnet/minecraft/client/audio/SoundSource;func_216429_a(Lnet/minecraft/client/audio/AudioStreamBuffer;)V",
+        "tick()V": "Lnet/minecraft/client/audio/SoundSource;func_216434_i()V",
+        "stop()V": "Lnet/minecraft/client/audio/SoundSource;func_216418_f()V"
+      },
+      "dynamiclabs/immersivefx/sndctrl/mixins/MixinClientWorld": {
+        "notifyBlockUpdate(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;Lnet/minecraft/block/BlockState;I)V": "Lnet/minecraft/client/world/ClientWorld;func_184138_a(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;Lnet/minecraft/block/BlockState;I)V"
+      },
+      "dynamiclabs/immersivefx/sndctrl/mixins/MixinSoundEngine": {
+        "load()V": "Lnet/minecraft/client/audio/SoundEngine;func_148608_i()V",
+        "unload()V": "Lnet/minecraft/client/audio/SoundEngine;func_148613_b()V",
+        "Lnet/minecraft/client/audio/SoundSystem;unload()V": "Lnet/minecraft/client/audio/SoundSystem;func_216409_b()V",
+        "tick(Z)V": "Lnet/minecraft/client/audio/SoundEngine;func_217921_a(Z)V",
+        "getClampedVolume(Lnet/minecraft/client/audio/ISound;)F": "Lnet/minecraft/client/audio/SoundEngine;func_188770_e(Lnet/minecraft/client/audio/ISound;)F",
+        "play(Lnet/minecraft/client/audio/ISound;)V": "Lnet/minecraft/client/audio/SoundEngine;func_148611_c(Lnet/minecraft/client/audio/ISound;)V",
+        "Lnet/minecraft/client/audio/SoundSystem;init()V": "Lnet/minecraft/client/audio/SoundSystem;func_216404_a()V",
+        "Lnet/minecraft/client/audio/ChannelManager$Entry;runOnSoundExecutor(Ljava/util/function/Consumer;)V": "Lnet/minecraft/client/audio/ChannelManager$Entry;func_217888_a(Ljava/util/function/Consumer;)V"
+      },
+      "dynamiclabs/immersivefx/sndctrl/mixins/MixinSoundSystem": {
+        "init()V": "Lnet/minecraft/client/audio/SoundSystem;func_216404_a()V"
+      },
+      "dynamiclabs/immersivefx/environs/mixins/MixinRainParticle": {
+        "makeParticle(Lnet/minecraft/particles/BasicParticleType;Lnet/minecraft/client/world/ClientWorld;DDDDDD)Lnet/minecraft/client/particle/Particle;": "Lnet/minecraft/client/particle/RainParticle$Factory;func_199234_a(Lnet/minecraft/particles/BasicParticleType;Lnet/minecraft/client/world/ClientWorld;DDDDDD)Lnet/minecraft/client/particle/Particle;"
+      },
+      "dynamiclabs/immersivefx/mobeffects/mixins/MixinEntityArrow": {
+        "tick()V": "Lnet/minecraft/entity/projectile/AbstractArrowEntity;func_70071_h_()V",
+        "Lnet/minecraft/entity/projectile/AbstractArrowEntity;getIsCritical()Z": "Lnet/minecraft/entity/projectile/AbstractArrowEntity;func_70241_g()Z"
+      }
+    }
+  }
+}

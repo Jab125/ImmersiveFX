@@ -25,10 +25,10 @@ public class HungerSound {
 		public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 			if (event.phase == TickEvent.Phase.END) {
 				Entity entity = event.player;
-				World world = entity.world;
-				double i = entity.getPosX();
-				double j = entity.getPosY();
-				double k = entity.getPosZ();
+				World world = entity.level;
+				double i = entity.getX();
+				double j = entity.getY();
+				double k = entity.getZ();
 				Map<String, Object> dependencies = new HashMap<>();
 				dependencies.put("x", i);
 				dependencies.put("y", j);
@@ -44,14 +44,14 @@ public class HungerSound {
 	public static void executeHungerSound(Map<String, Object> dependencies) {
 		IWorld world = (IWorld) dependencies.get("world");
 		Entity entity = (Entity) dependencies.get("entity");
-		if (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).getFoodStats().getFoodLevel() : 0) < 8) {
+		if (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).getFoodData().getFoodLevel() : 0) < 8) {
 			if (Math.random() < 0.005) {
-				if (world instanceof World && !world.isRemote()) {
-					((World) world).playSound(null, new BlockPos((int) (entity.getPosX()), (int) (entity.getPosY()), (int) (entity.getPosZ())),
+				if (world instanceof World && !world.isClientSide()) {
+					((World) world).playSound(null, new BlockPos((int) (entity.getX()), (int) (entity.getY()), (int) (entity.getZ())),
 							(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:hunger")),
 							SoundCategory.PLAYERS, (float) 1, (float) 1);
 				} else {
-					((World) world).playSound((entity.getPosX()), (entity.getPosY()), (entity.getPosZ()),
+					((World) world).playLocalSound((entity.getX()), (entity.getY()), (entity.getZ()),
 							(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:hunger")),
 							SoundCategory.PLAYERS, (float) 1, (float) 1, false);
 				}

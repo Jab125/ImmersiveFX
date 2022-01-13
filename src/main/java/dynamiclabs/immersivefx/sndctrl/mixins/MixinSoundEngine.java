@@ -161,16 +161,16 @@ public class MixinSoundEngine {
                 if (instance.getSoundCategory() != Category.CONFIG)
                     continue;
                 final ChannelManager.Entry channelmanager$entry1 = entry.getValue();
-                float f2 = this.options.getSoundLevel(instance.getCategory());
+                float f2 = this.options.getSoundSourceVolume(instance.getSource());
                 if (f2 <= 0.0F) {
-                    channelmanager$entry1.runOnSoundExecutor(SoundSource::stop);
+                    channelmanager$entry1.execute(SoundSource::stop);
                     iterator.remove();
-                } else if (channelmanager$entry1.isReleased()) {
+                } else if (channelmanager$entry1.isStopped()) {
                     iterator.remove();
                     this.playingSoundsStopTime.remove(instance);
 
                     try {
-                        this.categorySounds.remove(instance.getCategory(), instance);
+                        this.categorySounds.remove(instance.getSource(), instance);
                     } catch (RuntimeException ignore) {
                     }
 

@@ -25,10 +25,10 @@ public class DropItemSounds {
 		@SubscribeEvent
 		public static void onGemDropped(ItemTossEvent event) {
 			PlayerEntity entity = event.getPlayer();
-			double i = entity.getPosX();
-			double j = entity.getPosY();
-			double k = entity.getPosZ();
-			World world = entity.world;
+			double i = entity.getX();
+			double j = entity.getY();
+			double k = entity.getZ();
+			World world = entity.level;
 			ItemStack itemstack = event.getEntityItem().getItem();
 			Map<String, Object> dependencies = new HashMap<>();
 			dependencies.put("x", i);
@@ -46,12 +46,12 @@ public class DropItemSounds {
 
 		IWorld world = (IWorld) dependencies.get("world");
 		Entity entity = (Entity) dependencies.get("entity");
-		if (world instanceof World && !world.isRemote()) {
-			((World) world).playSound(null, new BlockPos((int) (entity.getPosX()), (int) (entity.getPosY()), (int) (entity.getPosZ())),
+		if (world instanceof World && !world.isClientSide()) {
+			((World) world).playSound(null, new BlockPos((int) (entity.getX()), (int) (entity.getY()), (int) (entity.getZ())),
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:throwitem")),
 					SoundCategory.BLOCKS, (float) 1.00, (float) 1);
 		} else {
-			((World) world).playSound((entity.getPosX()), (entity.getPosY()), (entity.getPosZ()),
+			((World) world).playLocalSound((entity.getX()), (entity.getY()), (entity.getZ()),
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("immersivefx:throwitem")),
 					SoundCategory.BLOCKS, (float) 1.00, (float) 1, false);
 		}

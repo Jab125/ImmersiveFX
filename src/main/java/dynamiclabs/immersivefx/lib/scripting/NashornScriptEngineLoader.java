@@ -17,12 +17,12 @@
  */
 package dynamiclabs.immersivefx.lib.scripting;
 
-import jdk.nashorn.api.scripting.NashornScriptEngineFactory;
+//import jdk.nashorn.api.scripting.NashornScriptEngineFactory;
 
 import javax.script.ScriptEngine;
 
 class NashornScriptEngineLoader {
     public static ScriptEngine getEngine() {
-        return new NashornScriptEngineFactory().getScriptEngine();
+        return null;
     }
 }

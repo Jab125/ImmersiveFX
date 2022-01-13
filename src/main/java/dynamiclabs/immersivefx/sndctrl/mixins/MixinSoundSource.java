@@ -110,8 +110,8 @@ public class MixinSoundSource implements IMixinSoundContext {
 
             p_216429_1_ = SoundFXProcessor.playBuffer(src, p_216429_1_);
 
-            p_216429_1_.getBuffer().ifPresent((p_216431_1_) -> {
-                AL10.alSourcei(src.id, 4105, p_216431_1_);
+            p_216429_1_.getAlBuffer().ifPresent((p_216431_1_) -> {
+                AL10.alSourcei(src.source, 4105, p_216431_1_);
             });
 
             ci.cancel();

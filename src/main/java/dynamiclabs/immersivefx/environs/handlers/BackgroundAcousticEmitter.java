@@ -110,7 +110,7 @@ public final class BackgroundAcousticEmitter {
 	}
 
 	public boolean isDonePlaying() {
-		return this.done || this.activeSound.isDonePlaying();
+		return this.done || this.activeSound.isStopped();
 	}
 
 	public void stop() {

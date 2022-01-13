@@ -63,11 +63,11 @@ repositories {
     mavenLocal()
 }
 
-sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '17' // Need this here so eclipse task generates correctly.
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
 
 minecraft {
-    mappings channel: 'snapshot', version: '20201028-1.16.3'
+    mappings channel: 'official', version: '1.16.5'
 
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
     accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
@@ -181,7 +181,6 @@ dependencies {
     implementation fg.deobf("curse.maven:SereneSeasons-291874:3429973")
     implementation fg.deobf("curse.maven:clothAPI-348521:3311352")
 
-    runtimeOnly fg.deobf("curse.maven:jei-238222:3488178")
     runtimeOnly fg.deobf("curse.maven:TheOneProbe-245211:3319255")
 }
 
